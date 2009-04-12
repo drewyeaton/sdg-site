@@ -1,0 +1,7 @@
+# Built-in
+filters_pre:
+- "bluecloth"
+
+# Custom 
+title: Home
+class: home

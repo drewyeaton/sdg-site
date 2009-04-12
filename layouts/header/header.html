@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>sentinel design group - <%= @page.title %></title>
+
+		<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection">
+		<link rel="stylesheet" href="/css/print.css" type="text/css" media="print">
+		<!--<link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection">-->
+
+		<script type="text/javascript" src="/js/jquery.js"></script> 
+		<script type="text/javascript" src="/js/jquery.pngFix.js"></script>
+
+		<script type="text/javascript"> 
+			$(document).ready(function() { 
+				$(document).pngFix(); 
+			}); 
+		</script>
+	</head>
+	<body class="<%= @page.class %>">
+		<div id="container">
+			
+			<div id="header">
+				<h1><a href="/"><img src="/images/logo.png" /></a></h1>
+
+				<ul id="nav">
+					<li><a href="/" >Home</a></li>
+					<li><a href="/about/" >About SDG</a></li>
+					<!-- <li><a href="/projects/" >Selected Projects</a></li> -->
+				</ul>
+			</div>
