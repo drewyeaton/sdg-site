@@ -371,7 +371,7 @@ h2 a {
 /* @group pages */
 
 body.home {
-	background-color: #2d1b11;
+	background: #2d1b11 url(/images/home/bg_fs_charity.gif) no-repeat center top;
 }
 
 .home h2 {
