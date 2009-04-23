@@ -1,6 +1,8 @@
 # Built-in 
+filters_pre: 
+- bluecloth
 layout: project
 
 # Custom 
 title: "Site: Flipswap Charity"
-class: project some-project-class
+class: project project-fs-charity

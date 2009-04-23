@@ -370,6 +370,8 @@ h2 a {
 
 /* @group pages */
 
+/* @group home */
+
 body.home {
 	background: #2d1b11 url(/images/home/bg_fs_charity.gif) no-repeat center top;
 }
@@ -388,6 +390,18 @@ body.home {
 .home .box h3, .home .box p, .home .box a {
 	color: #ceac6d;
 }
+
+/* @end */
+
+/* @group project fs charity */
+
+body.project-fs-charity {
+	background: #2d1b11 url(/images/home/bg_fs_charity.gif) no-repeat center top;
+}
+
+
+
+/* @end */
 
 
 
