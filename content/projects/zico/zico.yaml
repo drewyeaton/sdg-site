@@ -1,0 +1,8 @@
+# Built-in 
+filters_pre: 
+- bluecloth
+layout: project
+
+# Custom 
+title: "Brand: Zico"
+class: project project-zico
