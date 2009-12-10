@@ -3,12 +3,16 @@
 	<head>
 		<title>sentinel design group - <%= @item[:title] %></title>
 
-		<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection">
-		<link rel="stylesheet" href="/css/print.css" type="text/css" media="print">
-		<!--<link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection">-->
+		<link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print" title="no title" charset="utf-8">
+		<!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection" title="no title" charset="utf-8"><![endif]-->
+		<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection">
 
 		<script type="text/javascript" src="/js/jquery.js"></script> 
 		<script type="text/javascript" src="/js/jquery.pngFix.js"></script>
+		
+		<script type="text/javascript" src="http://use.typekit.com/wxs5rov.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 		<script type="text/javascript"> 
 			$(document).ready(function() { 
@@ -17,14 +21,14 @@
 		</script>
 	</head>
 	<body class="<%= @item[:class] %>">
-		<div id="container">
-			
-			<div id="header">
-				<h1><a href="/"><img src="/images/logo.png" /></a></h1>
+		<div class="header">
+			<div class="container">
+				<div id="logo"><a href="/"><img src="/images/logo.png" /></a></div>
 
-				<ul id="nav">
+				<ul class="nav">
 					<li><a href="/" >Home</a></li>
 					<li><a href="/about/" >About SDG</a></li>
 					<!-- <li><a href="/projects/" >Selected Projects</a></li> -->
 				</ul>
 			</div>
+		</div>

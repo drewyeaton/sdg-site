@@ -3,12 +3,16 @@
 	<head>
 		<title>sentinel design group - Use a Megaphone, Create a Following</title>
 
-		<link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection">
-		<link rel="stylesheet" href="/css/print.css" type="text/css" media="print">
-		<!--<link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection">-->
+		<link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print" title="no title" charset="utf-8">
+		<!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection" title="no title" charset="utf-8"><![endif]-->
+		<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection">
 
 		<script type="text/javascript" src="/js/jquery.js"></script> 
 		<script type="text/javascript" src="/js/jquery.pngFix.js"></script>
+		
+		<script type="text/javascript" src="http://use.typekit.com/wxs5rov.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 		<script type="text/javascript"> 
 			$(document).ready(function() { 
@@ -17,20 +21,20 @@
 		</script>
 	</head>
 	<body class="article">
-		<div id="container">
-			
-			<div id="header">
-				<h1><a href="/"><img src="/images/logo.png" /></a></h1>
+		<div class="header">
+			<div class="container">
+				<div id="logo"><a href="/"><img src="/images/logo.png" /></a></div>
 
-				<ul id="nav">
+				<ul class="nav">
 					<li><a href="/" >Home</a></li>
 					<li><a href="/about/" >About SDG</a></li>
 					<!-- <li><a href="/projects/" >Selected Projects</a></li> -->
 				</ul>
 			</div>
+		</div>
 
-<div id="content">
-	<h2>Use a Megaphone, Create a Following</h2>
+<div class="container append-bottom-3">
+	<h1>Use a Megaphone, Create a Following</h1>
 
 <p><strong>An idea for expanding your communications reach and visibility</strong></p>
 
@@ -59,39 +63,38 @@
 </ul>
 </div>
 
-			<div id="footer" class="column span-24">
-				<div class="column span-5 append-1">
+		<div class="footer prepend-top-2">
+			<div class="container">
+				<div class="column span-6 append-bottom-2">
 					<h4>Critical Information</h4>
 					<ul>
-					<li><span>phone<span> <strong>310.953.3295</strong></li>
-					<li><span>fax<span> <strong>801.922.3700</strong></li>
-					<li><span>email<span> <strong><a href="mailto:mail@sentineldesign.net">mail@sentineldesign.net</a></strong></li>
+						<li><span>phone:</span> <strong>310.953.3295</strong></li>
+						<li><span>fax:</span> <strong>801.922.3700</strong></li>
+						<li><span>email:</span> <strong><a href="mailto:mail@sentineldesign.net">mail@sentineldesign.net</a></strong></li>
 					</ul>
 				</div>
 
-				<div class="column span-5 append-1">
-					<h4>Billing and Support System</h4>
+				<div class="column span-6">
+					<h4>Billing and Support</h4>
 					<ul>
-					<li><a class="external" href="https://sentineldesigngroup.freshbooks.com/">Pay an Invoice</a></li>
-					<li><a class="external" href="https://sentineldesigngroup.freshbooks.com/">Start a Support Ticket</a></li>
-					<li><a href="mailto:mail@sentineldesign.net">Request Support Account</a></li>
+						<li><a class="external" href="https://sentineldesigngroup.freshbooks.com/">Pay an Invoice</a></li>
+						<li><a class="external" href="https://sentineldesigngroup.freshbooks.com/">Start a Support Ticket</a></li>
+						<li><a href="mailto:mail@sentineldesign.net">Request Support Account</a></li>
 					</ul>
 				</div>
 				
-				<div class="column span-5 append-1">
+				<div class="column span-6">
 					<h4>Navigation</h4>
 					<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="/about/">About SDG</a></li>
-					<!-- <li><a href="/projects/">Selected Projects</a></li> -->
+						<li><a href="/">Home</a></li>
+						<li><a href="/about/">About SDG</a></li>
+						<!-- <li><a href="/projects/">Selected Projects</a></li> -->
 					</ul>
 				</div>
 				
-				
 				<div class="column span-6 last">
-					<p class="small">This page was painstakingly crafted on  <!-- @page.mtime.strftime("%A %B %d, %Y at %H:%M:%S %Z")  --> by the fine folks at Sentinel Design Group &copy; 2009. Hosted at <a class="external" href="http://mediatemple.net/">(mt) Media Temple</a>. </p>
+					<p class="small">This page was painstakingly crafted on  <!-- @page.mtime.strftime("%A %B %d, %Y at %H:%M:%S %Z")  --> by the fine folks at Sentinel Design Group &copy; 2009. Hosted at <a class="external" href="http://mediatemple.net/">(mt) Media Temple</a>. Built with this crazy thing called <a class="external" href="http://nanoc.stoneship.org/">Nanoc 3</a>.</p>
 				</div>
-			
 			</div>
 		</div>
 	</body>
