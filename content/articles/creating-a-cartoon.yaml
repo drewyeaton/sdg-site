@@ -1,8 +1,4 @@
-# Built-in 
-filters_pre: 
-- "bluecloth"
+---
 layout: default
-
-# Custom 
 title: "Creating a Cartoon"
 class: article

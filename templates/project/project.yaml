@@ -1,8 +1,0 @@
-# Built-in
-filters_pre:
-- "bluecloth"
-layout: project
-
-# Custom 
-title: A Title
-class: project some-project-class

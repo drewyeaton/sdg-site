@@ -1,8 +1,4 @@
-# Built-in
-filters_pre:
-- "bluecloth"
+---
 layout: default
-
-# Custom 
 title: "Use a Megaphone, Create a Following"
 class: article

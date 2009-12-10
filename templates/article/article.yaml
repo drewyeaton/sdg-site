@@ -1,8 +1,0 @@
-# Built-in
-filters_pre:
-- "bluecloth"
-layout: default
-
-# Custom 
-title: A New Article
-class: article

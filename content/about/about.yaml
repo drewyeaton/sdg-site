@@ -1,8 +1,0 @@
-# Built-in
-filters_pre:
-- "bluecloth"
-layout: default
-
-# Custom 
-title: About SDG
-class: about
