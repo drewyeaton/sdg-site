@@ -14,11 +14,11 @@ body {
 
 body {
 	color: #ccc;
-	font: 80% "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 80% "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: "ff-meta-sc-web-pro-1","ff-meta-sc-web-pro-2", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-family: "kulturista-web-1","kulturista-web-2", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	color: #fff;
 }
 
@@ -27,18 +27,18 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 }
 
 h1 {
-	font-weight: normal;
+	font-weight: 700;
 	font-size: 4em;
 	line-height: 1.333;
 }
 
 h2 {
-	font-weight: normal;
+	font-weight: 100;
 	font-size: 3em;
 }
 
 h3, h4, h5 {
-	font-weight: bold;
+	font-weight: 500;
 }
 
 a {
@@ -59,10 +59,15 @@ a.external:after {
 }
 
 .large {
+	font-family: "kulturista-web-1","kulturista-web-2", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	line-height: 1.15;
-	font-weight: normal;
+	font-weight: 300;
 	font-style: normal;
 	font-size: 1.3em;
+}
+
+.light {
+	font-weight: 100;
 }
 
 hr {
@@ -106,7 +111,7 @@ hr {
 	float: left;
 	padding-top: .5em;
 	margin: 0 1.5em;
-	font: 1.2em/1.25 "ff-meta-serif-web-pro-1","ff-meta-serif-web-pro-2", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 1.2em/1.25 "kulturista-web-1","kulturista-web-2", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 /* @end */
@@ -172,7 +177,7 @@ body.brown {
 }
 
 .brown {
-	color: #fcf8df;
+	color: #ddc599;
 }
 
 .brown .box {
