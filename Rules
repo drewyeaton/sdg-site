@@ -1,6 +1,12 @@
 #!/usr/bin/env ruby
 
-compile '*' do
+
+
+compile '/resume/' do
+  layout 'blank'
+end
+
+compile '/*' do
   filter :bluecloth
   layout 'default'
 end

@@ -20,6 +20,8 @@ body {
 h1, h2, h3, h4, h5 {
 	font-family: "kulturista-web-1","kulturista-web-2", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	color: #fff;
+	/*-webkit-transform: rotate(-1deg);
+	-moz-transform: rotate(-1deg);*/
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a {
