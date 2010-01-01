@@ -1,0 +1,64 @@
+body {
+	background-image: url(/images/bg_work.png);
+}
+
+.work {
+	padding-top: 3em;
+	float: left;
+	padding-bottom: 3em;
+}
+
+.intro {
+	width: 235px;
+	margin-right: 15px;
+	float: left;
+	padding-right: 50px;
+}
+
+/* @group projects */
+
+.projects {
+	width: 585px;
+	float: left;
+}
+
+.project {
+	float: left;
+	width: 285px;
+	margin-right: 15px;
+	margin-bottom: 1.5em;
+}
+
+#project-2, #project-4, #project-6, #project-8, #project-10, #project-12  {
+	margin-right: 0;
+}
+
+.project img {
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+.project h4 {
+	margin-bottom: 0;
+	font-size:1.5em;line-height:2;font-weight:500
+}
+
+.project .meta {
+	font-size: .8em;
+	line-height: 1.875;
+}
+
+.project .type {
+	background-color: rgb(189,165,134);
+	background-color: rgba(189,165,134,0.45);
+	margin-right: .75em;
+	-webkit-border-radius: .75em;
+	-moz-border-radius: .75em;
+	border-radius: .75em;
+	border-top: 1px solid #fff;
+	padding: .5em 1em;
+	font-weight: bold;
+}
+
+
+
+/* @end */
