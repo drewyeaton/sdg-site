@@ -1,0 +1,45 @@
+<div class="container">
+	<div class="story">
+		<h1><a class="heading" href="#">Why CSS Frameworks Are a Bad Idea</a></h1>
+		
+		<p>Let me start by saying I really love the idea of saving time when I design and develop a site—I use all kinds of time savers. Any well thought out system that results in cleaner, more maintainable, simpler code is definitely a good thing. Thusly, I’ve used CSS frameworks in the past to save time building layouts and creating grid-based, standards-compliant websites. So, why isn’t Blueprint (or any other CSS framework) a good idea?</p>
+		<p>To answer this question, you must acknowledge that CSS is not a language that can be properly generalized with a conceptual structure. This is the reason why Jeffrey Zeldman writes the words CSS framework as CSS “framework"—that is, these things are not really frameworks in any sense of the word. They are (or attemtp to be) a one-size-fits-all stylesheet. Given this, the reason why these “frameworks" are bad is not about the frameworks themselves, it’s about the pattern they force you into.</p>
+		<p>What do I mean—ok, take for example a site I launched for Flipswap a few month back. The total time for designing, developing, copywriting, and launching the site was a little over two weeks. We cut out some best practices like IA and an exhaustive comping stage, but also took liberties with the development of the site. To quickly set type and control measure on a wide page, you normally split large chunks of copy into columns, add a sidebar for meta data, and all the usual stuff that makes a page with a lot of copy easy to digest. However, given our short timeline, I setup Blueprint and did my layout with div’s and classes while marking up the copy. This was a very simple and quick process and we got out some reasonably attractive pages on time. The key here was that I was saving time by doing design/layout while I was writing the markup. I was mixing my content layer (HTML markup) and presentation layer (CSS).</p>
+		<p>What I had done was paint myself into a veritable corner. That is, I had ignored the good natured sensible me that would markup the copy with semantically sounding classes and ids in favor of a me that was essentially creating a table layout. This is the pattern that Blueprint and other CSS frameworks force you into. When it comes time to redesign or reuse pages for a future site, I will have to redo everything over again. That’s not so much a timesaver as it is a pain in the ass. For the sake of clarity, here’s some example HTML to illustrate my point:</p>
+		<h3>Valid, standards-compliant Blueprint framework-based layout</h3>
+
+		<pre><code>
+&lt;div class=&quot;span-20&quot;&gt; 
+	&lt;div class=&quot;column span-10&quot;&gt; 
+		&lt;p&gt;Lorem ipsum dolor sit amet.&lt;/p&gt; 
+	&lt;/div&gt; 
+	&lt;div class=&quot;column span-10 last&quot;&gt; 
+		&lt;p&gt;Iqui officia deserunt mollit anim id est laborum.&lt;/p&gt; 
+	&lt;/div&gt; 
+&lt;/div&gt;
+		</code></pre>
+		
+		<h3>Valid, standards-compliant table-based layout</h3>
+
+		<pre><code>
+&lt;table width=&quot;200&quot;&gt; 
+	&lt;tr&gt; 
+		&lt;td width=&quot;100&quot;&gt; 
+			&lt;p&gt;Lorem ipsum dolor sit amet.&lt;/p&gt; 
+		&lt;/td&gt; 
+		&lt;td width=&quot;100&quot;&gt; 
+			&lt;p&gt;Iqui officia deserunt mollit anim id est laborum.&lt;/p&gt; 
+		&lt;/td&gt; 
+	&lt;/tr&gt; 
+&lt;/table&gt;
+		</code></pre>
+		
+		<p>Honestly, what’s the difference between these two things? Both have no content/presentation separation and no semantic markup. When you design with a CSS “framework" you may as well design with tables. Welcome to 1997, how does it feel?</p>
+		<p>So, what could a CSS framework be good for? It’s good for the one scenario where you are using a CMS and you have no control over your CSS, you can handcraft your non-semantic HTML by hand, and you never-ever plan to redesign or repurpose your content in an altered form. And that’s it.</p>
+	</div>
+	<div class="more-articles">
+		<div class="inner">	
+			<%= render 'article_list' %>
+		</div>
+	</div>
+</div>

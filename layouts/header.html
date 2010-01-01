@@ -1,34 +1,14 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<title>sentinel design - <%= @item[:title] %></title>
-
-		<link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection" title="no title" charset="utf-8">
-		<link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print" title="no title" charset="utf-8">
-		<!--[if lt IE 8]><link rel="stylesheet" href="/css/blueprint/ie.css" type="text/css" media="screen, projection" title="no title" charset="utf-8"><![endif]-->
-		<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection">
-
-		<script type="text/javascript" src="/js/jquery.js"></script> 
-		<script type="text/javascript" src="/js/jquery.pngFix.js"></script>
-		
-		<script type="text/javascript" src="http://use.typekit.com/wxs5rov.js"></script>
-		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-		<script type="text/javascript"> 
-			$(document).ready(function() { 
-				$(document).pngFix(); 
-			}); 
-		</script>
-	</head>
-	<body class="<%= @item[:class] %>">
-		<div class="header">
-			<div class="container">
-				<div id="logo"><a href="/"><img src="/images/logo.png" /></a></div>
-
-				<ul class="nav">
-					<li><a href="/" >Home</a></li>
-					<li><a href="/about/" >About SD</a></li>
-					<!-- <li><a href="/projects/" >Selected Projects</a></li> -->
-				</ul>
-			</div>
-		</div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Sentinel Design - <%= @item[:title] %></title>
+	<link rel="stylesheet" href="/css/reset.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+	<link rel="stylesheet" href="/css/shared.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+	<link rel="stylesheet" href="/css/<%= @item[:css] %>.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+	
+	<script type="text/javascript" src="http://use.typekit.com/wxs5rov.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body class="<%= @item[:breadcrumb] %>">

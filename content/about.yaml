@@ -1,4 +1,3 @@
----
-layout: default
-title: About SD
-class: about
+--- 
+title: About
+css: about

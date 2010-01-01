@@ -1,13 +1,12 @@
 #!/usr/bin/env ruby
 
-
-
-compile '/resume/' do
-  layout 'blank'
+compile '/' do
+  filter :erb
+  layout 'home'
 end
 
-compile '/*' do
-  filter :bluecloth
+compile '*' do
+  filter :erb
   layout 'default'
 end
 
