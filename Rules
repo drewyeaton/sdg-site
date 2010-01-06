@@ -5,6 +5,10 @@ compile '/' do
   layout 'home'
 end
 
+compile '/resume/' do
+  layout 'blank'
+end
+
 compile '*' do
   filter :erb
   layout 'default'
