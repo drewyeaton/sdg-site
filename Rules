@@ -9,6 +9,10 @@ compile '/resume/' do
   layout 'blank'
 end
 
+compile '/fieldnotes/' do
+  layout 'blank'
+end
+
 compile '*' do
   filter :erb
   layout 'default'
