@@ -1,30 +1,30 @@
-/* line 1, content/stylesheets/home.sass */
+/* line 1, content/stylesheets/_home.sass */
 .home-page {
   background-image: url(/images/bg_ani.png);
 }
-/* line 6, content/stylesheets/home.sass */
+/* line 6, content/stylesheets/_home.sass */
 .home-page .top-story {
   margin-bottom: 1.5em;
   float: left;
   width: 900px;
   padding-top: 1.5em;
 }
-/* line 11, content/stylesheets/home.sass */
+/* line 11, content/stylesheets/_home.sass */
 .home-page .top-story .story {
   width: 300px;
   padding-left: 600px;
 }
-/* line 14, content/stylesheets/home.sass */
+/* line 14, content/stylesheets/_home.sass */
 .home-page .top-story .story h4 {
   margin-bottom: 0;
 }
-/* line 16, content/stylesheets/home.sass */
+/* line 16, content/stylesheets/_home.sass */
 .home-page .top-story .story p {
   font-size: 0.8em;
   line-height: 1.875;
   margin-bottom: 0;
 }
-/* line 23, content/stylesheets/home.sass */
+/* line 23, content/stylesheets/_home.sass */
 .home-page .stories {
   float: left;
   margin-bottom: 3em;
@@ -34,22 +34,22 @@
   background-color: rgba(255, 255, 204, 0.8);
   margin-top: 4.5em;
 }
-/* line 31, content/stylesheets/home.sass */
+/* line 31, content/stylesheets/_home.sass */
 .home-page .stories .story {
   width: 285px;
   float: left;
   margin-right: 15px;
 }
-/* line 35, content/stylesheets/home.sass */
+/* line 35, content/stylesheets/_home.sass */
 .home-page .stories .story h2 {
   margin-bottom: 0;
 }
-/* line 37, content/stylesheets/home.sass */
+/* line 37, content/stylesheets/_home.sass */
 .home-page .stories .story .meta {
   font-size: 0.8em;
   line-height: 1.875;
 }
-/* line 40, content/stylesheets/home.sass */
+/* line 40, content/stylesheets/_home.sass */
 .home-page .stories .story .type {
   background-color: #bda586;
   background-color: rgba(189, 165, 134, 0.45);
@@ -60,31 +60,31 @@
   border-top: 1px solid white;
   padding: 0.5em 1em;
 }
-/* line 49, content/stylesheets/home.sass */
+/* line 49, content/stylesheets/_home.sass */
 .home-page .stories .inner {
   padding-top: 1.5em;
 }
-/* line 51, content/stylesheets/home.sass */
+/* line 51, content/stylesheets/_home.sass */
 .home-page .stories #story-b, .home-page .stories #story-d {
   margin-right: 0;
 }
-/* line 57, content/stylesheets/home.sass */
+/* line 57, content/stylesheets/_home.sass */
 .home-page table.work strong {
   display: block;
   font-weight: bold;
 }
-/* line 60, content/stylesheets/home.sass */
+/* line 60, content/stylesheets/_home.sass */
 .home-page table.work span {
   font-size: 0.8em;
   line-height: 1.875;
   color: #796a56;
 }
-/* line 64, content/stylesheets/home.sass */
+/* line 64, content/stylesheets/_home.sass */
 .home-page table.work img {
   border: 2px solid white;
   border: 2px solid rgba(255, 255, 255, 0.5);
 }
-/* line 70, content/stylesheets/home.sass */
+/* line 70, content/stylesheets/_home.sass */
 .home-page #about {
   margin-right: 0;
   width: 285px;
@@ -92,17 +92,17 @@
   padding-top: 0;
   float: left;
 }
-/* line 76, content/stylesheets/home.sass */
+/* line 76, content/stylesheets/_home.sass */
 .home-page #about h2 {
   margin-bottom: 0;
 }
-/* line 78, content/stylesheets/home.sass */
+/* line 78, content/stylesheets/_home.sass */
 .home-page #about .inner {
   padding: 1.5em;
   background-color: #f9f8a4;
   background-color: rgba(246, 215, 17, 0.18);
 }
-/* line 82, content/stylesheets/home.sass */
+/* line 82, content/stylesheets/_home.sass */
 .home-page #about i {
   font-weight: bold;
   margin-bottom: 0;
