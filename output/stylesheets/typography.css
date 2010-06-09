@@ -1,0 +1,307 @@
+/* line 1, content/stylesheets/typography.sass */
+html {
+  font-size: 100.01%;
+}
+
+/* line 4, content/stylesheets/typography.sass */
+body {
+  line-height: 1.5;
+  font-size: 75%;
+  color: #222222;
+  background: white;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+/* line 11, content/stylesheets/typography.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: #333333;
+  font-family: "ff-meta-sc-web-pro-1", "ff-meta-sc-web-pro-2", Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  text-shadow: white 0 1px 0;
+}
+
+/* line 18, content/stylesheets/typography.sass */
+h1 {
+  line-height: 1.2;
+  margin-bottom: 1em;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+/* line 24, content/stylesheets/typography.sass */
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+  font-weight: 500;
+}
+
+/* line 29, content/stylesheets/typography.sass */
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+
+/* line 35, content/stylesheets/typography.sass */
+h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+  font-weight: 500;
+}
+
+/* line 41, content/stylesheets/typography.sass */
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+  font-weight: 700;
+}
+
+/* line 47, content/stylesheets/typography.sass */
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* line 51, content/stylesheets/typography.sass */
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+/* line 54, content/stylesheets/typography.sass */
+p {
+  margin: 0 0 1.5em;
+}
+/* line 57, content/stylesheets/typography.sass */
+p img.left {
+  float: left;
+  padding: 0;
+  margin-right: 1.5em;
+  margin-left: 0;
+  margin-bottom: 1.5em;
+}
+/* line 63, content/stylesheets/typography.sass */
+p img.right {
+  float: right;
+  margin-right: 0;
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* line 69, content/stylesheets/typography.sass */
+a {
+  color: #3f372d;
+  text-decoration: none;
+  border-bottom: 2px solid #9d896f;
+}
+/* line 70, content/stylesheets/typography.sass */
+a:focus, a:hover {
+  color: black;
+  border-bottom: 2px solid #655948;
+}
+/* line 76, content/stylesheets/typography.sass */
+a.image, a.heading {
+  border-bottom-style: none;
+}
+
+/* line 79, content/stylesheets/typography.sass */
+blockquote {
+  margin: 1.5em;
+  color: #666666;
+  font-style: italic;
+}
+
+/* line 84, content/stylesheets/typography.sass */
+strong {
+  font-weight: bold;
+}
+
+/* line 87, content/stylesheets/typography.sass */
+em {
+  font-style: italic;
+}
+
+/* line 90, content/stylesheets/typography.sass */
+dfn {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 94, content/stylesheets/typography.sass */
+sup, sub {
+  line-height: 0;
+}
+
+/* line 97, content/stylesheets/typography.sass */
+abbr, acronym {
+  border-bottom: 1px dotted #666666;
+}
+
+/* line 100, content/stylesheets/typography.sass */
+address {
+  margin: 0 0 1.5em;
+  font-style: italic;
+}
+
+/* line 104, content/stylesheets/typography.sass */
+del {
+  color: #666666;
+}
+
+/* line 107, content/stylesheets/typography.sass */
+pre {
+  margin: 1.5em 0;
+  white-space: pre;
+  font: 1em "andale mono", "lucida console", monospace;
+  line-height: 1.5;
+}
+
+/* line 113, content/stylesheets/typography.sass */
+code, tt {
+  font: 1em "andale mono", "lucida console", monospace;
+  line-height: 1.5;
+}
+
+/* line 118, content/stylesheets/typography.sass */
+li ul, li ol {
+  margin: 0;
+}
+
+/* line 121, content/stylesheets/typography.sass */
+ul, ol {
+  margin: 0 1.5em 1.5em 0;
+  padding-left: 3.333em;
+}
+
+/* line 125, content/stylesheets/typography.sass */
+ul {
+  list-style-type: disc;
+}
+
+/* line 128, content/stylesheets/typography.sass */
+ol {
+  list-style-type: decimal;
+}
+
+/* line 131, content/stylesheets/typography.sass */
+dl {
+  margin: 0 0 1.5em 0;
+}
+/* line 133, content/stylesheets/typography.sass */
+dl dt {
+  font-weight: bold;
+}
+
+/* line 136, content/stylesheets/typography.sass */
+dd {
+  margin-left: 1.5em;
+}
+
+/* line 139, content/stylesheets/typography.sass */
+table {
+  margin-bottom: 1.4em;
+  width: 100%;
+}
+
+/* line 143, content/stylesheets/typography.sass */
+th {
+  font-weight: bold;
+}
+
+/* line 146, content/stylesheets/typography.sass */
+thead th {
+  background: #c3d9ff;
+}
+
+/* line 149, content/stylesheets/typography.sass */
+th, td, caption {
+  padding: 4px 10px 4px 5px;
+}
+
+/* line 152, content/stylesheets/typography.sass */
+tr.even td {
+  background: #e5ecf9;
+}
+
+/* line 155, content/stylesheets/typography.sass */
+tfoot {
+  font-style: italic;
+}
+
+/* line 158, content/stylesheets/typography.sass */
+caption {
+  background: #eeeeee;
+}
+
+/* line 161, content/stylesheets/typography.sass */
+.small {
+  font-size: 0.8em;
+  margin-bottom: 1.875em;
+  line-height: 1.875em;
+}
+
+/* line 166, content/stylesheets/typography.sass */
+.large {
+  font-size: 1.2em;
+  line-height: 2.5em;
+  margin-bottom: 1.25em;
+}
+
+/* line 171, content/stylesheets/typography.sass */
+.hide {
+  display: none;
+}
+
+/* line 174, content/stylesheets/typography.sass */
+.quiet {
+  color: #666666;
+}
+
+/* line 177, content/stylesheets/typography.sass */
+.loud {
+  color: black;
+}
+
+/* line 180, content/stylesheets/typography.sass */
+.highlight {
+  background: yellow;
+}
+
+/* line 183, content/stylesheets/typography.sass */
+.added {
+  background: #006600;
+  color: white;
+}
+
+/* line 187, content/stylesheets/typography.sass */
+.removed {
+  background: #990000;
+  color: white;
+}
+
+/* line 191, content/stylesheets/typography.sass */
+.first {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* line 195, content/stylesheets/typography.sass */
+.last {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+/* line 199, content/stylesheets/typography.sass */
+.top {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 203, content/stylesheets/typography.sass */
+.bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

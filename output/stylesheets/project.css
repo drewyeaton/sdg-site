@@ -1,10 +1,9 @@
 /* line 1, content/stylesheets/project.sass */
-body {
+.project-page {
   background-image: url(/images/bg_work.png);
 }
-
 /* line 6, content/stylesheets/project.sass */
-.project {
+.project-page .project {
   padding-top: 3em;
   float: left;
   margin-right: 15px;
@@ -12,18 +11,18 @@ body {
   width: 585px;
 }
 /* line 12, content/stylesheets/project.sass */
-.project h1 {
+.project-page .project h1 {
   margin-bottom: 0;
   line-height: 1.8;
 }
 /* line 15, content/stylesheets/project.sass */
-.project .meta {
+.project-page .project .meta {
   font-size: 0.8em;
   line-height: 1.875;
   margin-bottom: 3em;
 }
 /* line 19, content/stylesheets/project.sass */
-.project .type {
+.project-page .project .type {
   background-color: #bda586;
   background-color: rgba(189, 165, 134, 0.45);
   margin-right: 0.75em;
@@ -35,40 +34,38 @@ body {
   font-weight: bold;
 }
 /* line 29, content/stylesheets/project.sass */
-.project img {
+.project-page .project img {
   border: 2px solid #dcdcdc;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-
 /* line 35, content/stylesheets/project.sass */
-.more-work {
+.project-page .more-work {
   width: 285px;
   float: left;
 }
 /* line 38, content/stylesheets/project.sass */
-.more-work .inner {
+.project-page .more-work .inner {
   padding: 1.5em;
   background-color: #f9f8a4;
   background-color: rgba(246, 215, 17, 0.18);
 }
-
 /* line 44, content/stylesheets/project.sass */
-table.work td {
+.project-page table.work td {
   vertical-align: top;
 }
 /* line 46, content/stylesheets/project.sass */
-table.work strong {
+.project-page table.work strong {
   display: block;
   font-weight: bold;
 }
 /* line 49, content/stylesheets/project.sass */
-table.work span {
+.project-page table.work span {
   font-size: 0.8em;
   line-height: 1.875;
   color: #796a56;
 }
 /* line 53, content/stylesheets/project.sass */
-table.work img {
+.project-page table.work img {
   border: 2px solid white;
   border: 2px solid rgba(255, 255, 255, 0.5);
 }

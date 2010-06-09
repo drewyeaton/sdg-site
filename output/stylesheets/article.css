@@ -1,5 +1,5 @@
-/* line 3, content/stylesheets/article.sass */
-.story {
+/* line 4, content/stylesheets/article.sass */
+.article-page .story {
   padding-top: 3em;
   float: left;
   padding-bottom: 3em;
@@ -7,33 +7,31 @@
   margin-right: 15px;
   padding-right: 50px;
 }
-
-/* line 11, content/stylesheets/article.sass */
-code {
+/* line 12, content/stylesheets/article.sass */
+.article-page code {
   background-color: rgba(255, 255, 255, 0.5);
   display: block;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 0 1.5em;
 }
-
-/* line 19, content/stylesheets/article.sass */
-.more-articles {
+/* line 20, content/stylesheets/article.sass */
+.article-page .more-articles {
   width: 285px;
   float: left;
 }
-/* line 22, content/stylesheets/article.sass */
-.more-articles .inner {
+/* line 23, content/stylesheets/article.sass */
+.article-page .more-articles .inner {
   padding: 1.5em;
   background-color: #f9f8a4;
   background-color: rgba(246, 215, 17, 0.18);
 }
-/* line 26, content/stylesheets/article.sass */
-.more-articles h4 {
+/* line 27, content/stylesheets/article.sass */
+.article-page .more-articles h4 {
   font-weight: bold;
   margin-bottom: 0;
 }
-/* line 29, content/stylesheets/article.sass */
-.more-articles .meta {
+/* line 30, content/stylesheets/article.sass */
+.article-page .more-articles .meta {
   font-size: 0.8em;
   line-height: 1.875;
 }

@@ -1,33 +1,31 @@
-/* line 3, content/stylesheets/home.sass */
-body {
+/* line 1, content/stylesheets/home.sass */
+.home-page {
   background-image: url(/images/bg_ani.png);
 }
-
 /* line 6, content/stylesheets/home.sass */
-.top-story {
+.home-page .top-story {
   margin-bottom: 1.5em;
   float: left;
   width: 900px;
   padding-top: 1.5em;
 }
 /* line 11, content/stylesheets/home.sass */
-.top-story .story {
+.home-page .top-story .story {
   width: 300px;
   padding-left: 600px;
 }
 /* line 14, content/stylesheets/home.sass */
-.top-story .story h4 {
+.home-page .top-story .story h4 {
   margin-bottom: 0;
 }
 /* line 16, content/stylesheets/home.sass */
-.top-story .story p {
+.home-page .top-story .story p {
   font-size: 0.8em;
   line-height: 1.875;
   margin-bottom: 0;
 }
-
 /* line 23, content/stylesheets/home.sass */
-.stories {
+.home-page .stories {
   float: left;
   margin-bottom: 3em;
   width: 585px;
@@ -37,22 +35,22 @@ body {
   margin-top: 4.5em;
 }
 /* line 31, content/stylesheets/home.sass */
-.stories .story {
+.home-page .stories .story {
   width: 285px;
   float: left;
   margin-right: 15px;
 }
 /* line 35, content/stylesheets/home.sass */
-.stories .story h2 {
+.home-page .stories .story h2 {
   margin-bottom: 0;
 }
 /* line 37, content/stylesheets/home.sass */
-.stories .story .meta {
+.home-page .stories .story .meta {
   font-size: 0.8em;
   line-height: 1.875;
 }
 /* line 40, content/stylesheets/home.sass */
-.stories .story .type {
+.home-page .stories .story .type {
   background-color: #bda586;
   background-color: rgba(189, 165, 134, 0.45);
   margin-right: 0.75em;
@@ -63,33 +61,31 @@ body {
   padding: 0.5em 1em;
 }
 /* line 49, content/stylesheets/home.sass */
-.stories .inner {
+.home-page .stories .inner {
   padding-top: 1.5em;
 }
 /* line 51, content/stylesheets/home.sass */
-.stories #story-b, .stories #story-d {
+.home-page .stories #story-b, .home-page .stories #story-d {
   margin-right: 0;
 }
-
 /* line 57, content/stylesheets/home.sass */
-table.work strong {
+.home-page table.work strong {
   display: block;
   font-weight: bold;
 }
 /* line 60, content/stylesheets/home.sass */
-table.work span {
+.home-page table.work span {
   font-size: 0.8em;
   line-height: 1.875;
   color: #796a56;
 }
 /* line 64, content/stylesheets/home.sass */
-table.work img {
+.home-page table.work img {
   border: 2px solid white;
   border: 2px solid rgba(255, 255, 255, 0.5);
 }
-
 /* line 70, content/stylesheets/home.sass */
-#about {
+.home-page #about {
   margin-right: 0;
   width: 285px;
   padding-right: 0;
@@ -97,17 +93,17 @@ table.work img {
   float: left;
 }
 /* line 76, content/stylesheets/home.sass */
-#about h2 {
+.home-page #about h2 {
   margin-bottom: 0;
 }
 /* line 78, content/stylesheets/home.sass */
-#about .inner {
+.home-page #about .inner {
   padding: 1.5em;
   background-color: #f9f8a4;
   background-color: rgba(246, 215, 17, 0.18);
 }
 /* line 82, content/stylesheets/home.sass */
-#about i {
+.home-page #about i {
   font-weight: bold;
   margin-bottom: 0;
 }
