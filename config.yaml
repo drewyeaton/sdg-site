@@ -2,5 +2,5 @@
 data_sources: 
 - items_root: /
   layouts_root: /
-  type: filesystem_compact
+  type: filesystem_unified
 output_dir: output

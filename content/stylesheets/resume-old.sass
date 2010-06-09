@@ -1,0 +1,178 @@
+// typography
+
+html
+  font-size: 100.01%
+
+body
+  font-size: 85%
+  color: #222
+  background: #fff
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif
+
+h1, h2, h3, h4, h5, h6
+  font-weight: normal
+  color: #333
+  font-family: "ff-meta-sc-web-pro-1","ff-meta-sc-web-pro-2", Georgia, "Times New Roman", Times, serif
+  font-style: normal
+  text-shadow: #fff 0 1px 0
+
+h1
+  line-height: 1.2
+  font-size: 2.5em
+
+h2
+  margin-bottom: 1em
+  font-weight: bold
+  line-height: 1.5
+  font-size: 2em
+
+h3
+  line-height: 1.25
+  font-weight: 500
+  margin-bottom: 1.25em
+  font-size: 1.2em
+
+h4
+  line-height: 1.25
+  margin-bottom: 1.25em
+  font-weight: bold
+  font-size: 1.2em
+
+h5
+  font-size: 1em
+  font-weight: bold
+  margin-bottom: 1.5em
+  font-weight: 700
+
+h6
+  font-size: 1em
+  font-weight: bold
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img
+  margin: 0
+
+p
+  margin: 0 0 1.5em
+  img
+    &.left
+      float: left
+      padding: 0
+      margin-right: 1.5em
+      margin-left: 0
+      margin-bottom: 1.5em
+    &.right
+      float: right
+      margin-right: 0
+      margin-left: 1.5em
+      margin-bottom: 1.5em
+
+a
+  &:focus, &:hover
+    color: #000
+    border-bottom: 2px solid #655948
+  color: #3f372d
+  text-decoration: none
+  border-bottom: 2px solid #9d896f
+  &.image, &.heading
+    border-bottom-style: none
+
+strong
+  font-weight: bold
+
+li
+  ul, ol
+    margin: 0
+
+ul, ol
+  margin: 0 1.5em 1.5em 0
+  padding-left: 3.333em
+
+ul
+  list-style-type: disc
+
+ol
+  list-style-type: decimal
+
+// layout
+
+body
+  color: #3d423d
+  font-family: "myriad pro", "Lucida Grande", Lucida, Verdana, sans-serif
+  background: #fbffc4 no-repeat center top
+
+.container
+  width: 600px
+  margin: 0 auto
+
+// sections
+
+.section
+  width: 100%
+  .container
+    padding-bottom: 1em
+    overflow: auto
+    padding-top: 1.5em
+
+// super
+
+#super
+  background-color: #2c2c29
+  h1
+    color: #fff
+    text-shadow: #000 0 1px 0
+  h3
+    color: #fff
+    text-shadow: #000 0 1px 0
+    margin-bottom: .5em
+  p, a
+    color: #d1d4ae
+  .avatar
+    float: left
+    border: 8px solid #343430
+    margin-right: 2em
+
+// overview
+
+#overview
+  background-color: #4b5e61
+  border-bottom: 1px solid #364446
+  h2, p, a
+    color: #fff
+    text-shadow: #265625 0 1px 0
+  h2
+    color: #cedcdf
+  a
+    border-bottom: 2px solid #cedcdf
+    &.image, &.heading
+      border-bottom-style: none
+
+#abilities
+  background-color: #bdc092
+  border-bottom: 1px solid #a0a37c
+
+// projects
+
+.projects
+  float: left
+  width: 585px
+  clear: both
+  .intro
+    width: 235px
+    padding-right: 50px
+    float: left
+  .thumbs
+  .thumb
+    float: left
+    margin-right: 8px
+    margin-bottom: 15px
+    img
+      border: 3px solid #dfe2ac
+
+#tools
+  background-color: #fcffe1
+  border-top: 1px solid #c9cc9d
+
+.details
+  float: left
+  width: 535px
+  padding-top: 6em

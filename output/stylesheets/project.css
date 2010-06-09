@@ -1,0 +1,74 @@
+/* line 1, content/stylesheets/project.sass */
+body {
+  background-image: url(/images/bg_work.png);
+}
+
+/* line 6, content/stylesheets/project.sass */
+.project {
+  padding-top: 3em;
+  float: left;
+  margin-right: 15px;
+  padding-bottom: 3em;
+  width: 585px;
+}
+/* line 12, content/stylesheets/project.sass */
+.project h1 {
+  margin-bottom: 0;
+  line-height: 1.8;
+}
+/* line 15, content/stylesheets/project.sass */
+.project .meta {
+  font-size: 0.8em;
+  line-height: 1.875;
+  margin-bottom: 3em;
+}
+/* line 19, content/stylesheets/project.sass */
+.project .type {
+  background-color: #bda586;
+  background-color: rgba(189, 165, 134, 0.45);
+  margin-right: 0.75em;
+  -webkit-border-radius: 0.75em;
+  -moz-border-radius: 0.75em;
+  border-radius: 0.75em;
+  border-top: 1px solid white;
+  padding: 0.5em 1em;
+  font-weight: bold;
+}
+/* line 29, content/stylesheets/project.sass */
+.project img {
+  border: 2px solid #dcdcdc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* line 35, content/stylesheets/project.sass */
+.more-work {
+  width: 285px;
+  float: left;
+}
+/* line 38, content/stylesheets/project.sass */
+.more-work .inner {
+  padding: 1.5em;
+  background-color: #f9f8a4;
+  background-color: rgba(246, 215, 17, 0.18);
+}
+
+/* line 44, content/stylesheets/project.sass */
+table.work td {
+  vertical-align: top;
+}
+/* line 46, content/stylesheets/project.sass */
+table.work strong {
+  display: block;
+  font-weight: bold;
+}
+/* line 49, content/stylesheets/project.sass */
+table.work span {
+  font-size: 0.8em;
+  line-height: 1.875;
+  color: #796a56;
+}
+/* line 53, content/stylesheets/project.sass */
+table.work img {
+  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}

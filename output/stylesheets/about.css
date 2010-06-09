@@ -1,0 +1,27 @@
+/* line 1, content/stylesheets/about.sass */
+.about {
+  padding-top: 3em;
+  float: left;
+  margin-right: 15px;
+  padding-bottom: 3em;
+  width: 585px;
+}
+
+/* line 10, content/stylesheets/about.sass */
+.infos {
+  float: left;
+  width: 900px;
+}
+
+/* line 14, content/stylesheets/about.sass */
+.info {
+  width: 235px;
+  margin-right: 15px;
+  float: left;
+  padding-right: 50px;
+}
+
+/* line 20, content/stylesheets/about.sass */
+#info-3 {
+  margin-right: 0;
+}

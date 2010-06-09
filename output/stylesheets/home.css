@@ -1,0 +1,113 @@
+/* line 3, content/stylesheets/home.sass */
+body {
+  background-image: url(/images/bg_ani.png);
+}
+
+/* line 6, content/stylesheets/home.sass */
+.top-story {
+  margin-bottom: 1.5em;
+  float: left;
+  width: 900px;
+  padding-top: 1.5em;
+}
+/* line 11, content/stylesheets/home.sass */
+.top-story .story {
+  width: 300px;
+  padding-left: 600px;
+}
+/* line 14, content/stylesheets/home.sass */
+.top-story .story h4 {
+  margin-bottom: 0;
+}
+/* line 16, content/stylesheets/home.sass */
+.top-story .story p {
+  font-size: 0.8em;
+  line-height: 1.875;
+  margin-bottom: 0;
+}
+
+/* line 23, content/stylesheets/home.sass */
+.stories {
+  float: left;
+  margin-bottom: 3em;
+  width: 585px;
+  margin-right: 15px;
+  background-color: #ffffcc;
+  background-color: rgba(255, 255, 204, 0.8);
+  margin-top: 4.5em;
+}
+/* line 31, content/stylesheets/home.sass */
+.stories .story {
+  width: 285px;
+  float: left;
+  margin-right: 15px;
+}
+/* line 35, content/stylesheets/home.sass */
+.stories .story h2 {
+  margin-bottom: 0;
+}
+/* line 37, content/stylesheets/home.sass */
+.stories .story .meta {
+  font-size: 0.8em;
+  line-height: 1.875;
+}
+/* line 40, content/stylesheets/home.sass */
+.stories .story .type {
+  background-color: #bda586;
+  background-color: rgba(189, 165, 134, 0.45);
+  margin-right: 0.75em;
+  -webkit-border-radius: 0.75em;
+  -moz-border-radius: 0.75em;
+  border-radius: 0.75em;
+  border-top: 1px solid white;
+  padding: 0.5em 1em;
+}
+/* line 49, content/stylesheets/home.sass */
+.stories .inner {
+  padding-top: 1.5em;
+}
+/* line 51, content/stylesheets/home.sass */
+.stories #story-b, .stories #story-d {
+  margin-right: 0;
+}
+
+/* line 57, content/stylesheets/home.sass */
+table.work strong {
+  display: block;
+  font-weight: bold;
+}
+/* line 60, content/stylesheets/home.sass */
+table.work span {
+  font-size: 0.8em;
+  line-height: 1.875;
+  color: #796a56;
+}
+/* line 64, content/stylesheets/home.sass */
+table.work img {
+  border: 2px solid white;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+/* line 70, content/stylesheets/home.sass */
+#about {
+  margin-right: 0;
+  width: 285px;
+  padding-right: 0;
+  padding-top: 0;
+  float: left;
+}
+/* line 76, content/stylesheets/home.sass */
+#about h2 {
+  margin-bottom: 0;
+}
+/* line 78, content/stylesheets/home.sass */
+#about .inner {
+  padding: 1.5em;
+  background-color: #f9f8a4;
+  background-color: rgba(246, 215, 17, 0.18);
+}
+/* line 82, content/stylesheets/home.sass */
+#about i {
+  font-weight: bold;
+  margin-bottom: 0;
+}

@@ -1,5 +1,18 @@
 #!/usr/bin/env ruby
 
+require 'compass'
+Compass.add_project_configuration 'config/compass.config'
+
+# compilation rules
+
+compile '/stylesheets/*/' do
+   filter :sass, Compass.sass_engine_options
+end
+
+route '/stylesheets/*/' do
+   item.identifier.chop + '.css'
+end
+
 compile '/' do
   filter :erb
   layout 'home'
@@ -18,8 +31,12 @@ compile '*' do
   layout 'default'
 end
 
+# routing rules
+
 route '*' do
   item.identifier + 'index.html'
 end
+
+# layout rules
 
 layout '*', :erb
