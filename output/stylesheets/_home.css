@@ -24,67 +24,53 @@
   line-height: 1.875;
   margin-bottom: 0;
 }
-/* line 23, content/stylesheets/_home.sass */
-.home-page .stories {
-  float: left;
-  margin-bottom: 3em;
+/* line 56, content/stylesheets/_home.sass */
+.home-page .projects {
   width: 585px;
+  float: left;
   margin-right: 15px;
-  background-color: #ffffcc;
-  background-color: rgba(255, 255, 204, 0.8);
   margin-top: 4.5em;
 }
-/* line 31, content/stylesheets/_home.sass */
-.home-page .stories .story {
-  width: 285px;
+/* line 64, content/stylesheets/_home.sass */
+.home-page .projects .project {
   float: left;
+  width: 285px;
   margin-right: 15px;
+  margin-bottom: 1.5em;
 }
-/* line 35, content/stylesheets/_home.sass */
-.home-page .stories .story h2 {
+/* line 70, content/stylesheets/_home.sass */
+.home-page .projects .project img {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* line 72, content/stylesheets/_home.sass */
+.home-page .projects .project h4 {
   margin-bottom: 0;
+  font-size: 1.5em;
+  line-height: 2;
+  font-weight: 500;
 }
-/* line 37, content/stylesheets/_home.sass */
-.home-page .stories .story .meta {
+/* line 77, content/stylesheets/_home.sass */
+.home-page .projects .project .meta {
   font-size: 0.8em;
   line-height: 1.875;
 }
-/* line 40, content/stylesheets/_home.sass */
-.home-page .stories .story .type {
+/* line 80, content/stylesheets/_home.sass */
+.home-page .projects .project .type {
   background-color: #bda586;
   background-color: rgba(189, 165, 134, 0.45);
   margin-right: 0.75em;
-  -webkit-border-radius: 0.75em;
-  -moz-border-radius: 0.75em;
-  border-radius: 0.75em;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
   border-top: 1px solid white;
   padding: 0.5em 1em;
-}
-/* line 49, content/stylesheets/_home.sass */
-.home-page .stories .inner {
-  padding-top: 1.5em;
-}
-/* line 51, content/stylesheets/_home.sass */
-.home-page .stories #story-b, .home-page .stories #story-d {
-  margin-right: 0;
-}
-/* line 57, content/stylesheets/_home.sass */
-.home-page table.work strong {
-  display: block;
   font-weight: bold;
 }
-/* line 60, content/stylesheets/_home.sass */
-.home-page table.work span {
-  font-size: 0.8em;
-  line-height: 1.875;
-  color: #796a56;
+/* line 91, content/stylesheets/_home.sass */
+.home-page #project-2, .home-page #project-4, .home-page #project-6, .home-page #project-8, .home-page #project-10, .home-page #project-12 {
+  margin-right: 0;
 }
-/* line 64, content/stylesheets/_home.sass */
-.home-page table.work img {
-  border: 2px solid white;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-}
-/* line 70, content/stylesheets/_home.sass */
+/* line 108, content/stylesheets/_home.sass */
 .home-page #about {
   margin-right: 0;
   width: 285px;
@@ -92,17 +78,17 @@
   padding-top: 0;
   float: left;
 }
-/* line 76, content/stylesheets/_home.sass */
+/* line 114, content/stylesheets/_home.sass */
 .home-page #about h2 {
   margin-bottom: 0;
 }
-/* line 78, content/stylesheets/_home.sass */
+/* line 116, content/stylesheets/_home.sass */
 .home-page #about .inner {
   padding: 1.5em;
   background-color: #f9f8a4;
   background-color: rgba(246, 215, 17, 0.18);
 }
-/* line 82, content/stylesheets/_home.sass */
+/* line 120, content/stylesheets/_home.sass */
 .home-page #about i {
   font-weight: bold;
   margin-bottom: 0;
