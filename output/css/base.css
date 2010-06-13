@@ -58,12 +58,12 @@ a img {
   border: none;
 }
 
-/* line 1, content/stylesheets/./_typography.sass */
+/* line 1, content/css/./_typography.sass */
 html {
   font-size: 100.01%;
 }
 
-/* line 4, content/stylesheets/./_typography.sass */
+/* line 4, content/css/./_typography.sass */
 body {
   line-height: 1.5;
   font-size: 75%;
@@ -72,7 +72,7 @@ body {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 
-/* line 11, content/stylesheets/./_typography.sass */
+/* line 11, content/css/./_typography.sass */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   color: #333333;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: white 0 1px 0;
 }
 
-/* line 18, content/stylesheets/./_typography.sass */
+/* line 18, content/css/./_typography.sass */
 h1 {
   line-height: 1.2;
   margin-bottom: 1em;
@@ -89,14 +89,14 @@ h1 {
   font-weight: 700;
 }
 
-/* line 24, content/stylesheets/./_typography.sass */
+/* line 24, content/css/./_typography.sass */
 h2 {
   font-size: 2em;
   margin-bottom: 0.75em;
   font-weight: 500;
 }
 
-/* line 29, content/stylesheets/./_typography.sass */
+/* line 29, content/css/./_typography.sass */
 h3 {
   font-size: 1.5em;
   line-height: 1;
@@ -104,7 +104,7 @@ h3 {
   font-weight: 500;
 }
 
-/* line 35, content/stylesheets/./_typography.sass */
+/* line 35, content/css/./_typography.sass */
 h4 {
   font-size: 1.2em;
   line-height: 1.25;
@@ -112,7 +112,7 @@ h4 {
   font-weight: 500;
 }
 
-/* line 41, content/stylesheets/./_typography.sass */
+/* line 41, content/css/./_typography.sass */
 h5 {
   font-size: 1em;
   font-weight: bold;
@@ -120,22 +120,22 @@ h5 {
   font-weight: 700;
 }
 
-/* line 47, content/stylesheets/./_typography.sass */
+/* line 47, content/css/./_typography.sass */
 h6 {
   font-size: 1em;
   font-weight: bold;
 }
 
-/* line 51, content/stylesheets/./_typography.sass */
+/* line 51, content/css/./_typography.sass */
 h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
   margin: 0;
 }
 
-/* line 54, content/stylesheets/./_typography.sass */
+/* line 54, content/css/./_typography.sass */
 p {
   margin: 0 0 1.5em;
 }
-/* line 57, content/stylesheets/./_typography.sass */
+/* line 57, content/css/./_typography.sass */
 p img.left {
   float: left;
   padding: 0;
@@ -143,7 +143,7 @@ p img.left {
   margin-left: 0;
   margin-bottom: 1.5em;
 }
-/* line 63, content/stylesheets/./_typography.sass */
+/* line 63, content/css/./_typography.sass */
 p img.right {
   float: right;
   margin-right: 0;
@@ -151,67 +151,67 @@ p img.right {
   margin-bottom: 1.5em;
 }
 
-/* line 69, content/stylesheets/./_typography.sass */
+/* line 69, content/css/./_typography.sass */
 a {
   color: #3f372d;
   text-decoration: none;
   border-bottom: 2px solid #9d896f;
 }
-/* line 70, content/stylesheets/./_typography.sass */
+/* line 70, content/css/./_typography.sass */
 a:focus, a:hover {
   color: black;
   border-bottom: 2px solid #655948;
 }
-/* line 76, content/stylesheets/./_typography.sass */
+/* line 76, content/css/./_typography.sass */
 a.image, a.heading {
   border-bottom-style: none;
 }
 
-/* line 79, content/stylesheets/./_typography.sass */
+/* line 79, content/css/./_typography.sass */
 blockquote {
   margin: 1.5em;
   color: #666666;
   font-style: italic;
 }
 
-/* line 84, content/stylesheets/./_typography.sass */
+/* line 84, content/css/./_typography.sass */
 strong {
   font-weight: bold;
 }
 
-/* line 87, content/stylesheets/./_typography.sass */
+/* line 87, content/css/./_typography.sass */
 em {
   font-style: italic;
 }
 
-/* line 90, content/stylesheets/./_typography.sass */
+/* line 90, content/css/./_typography.sass */
 dfn {
   font-style: italic;
   font-weight: bold;
 }
 
-/* line 94, content/stylesheets/./_typography.sass */
+/* line 94, content/css/./_typography.sass */
 sup, sub {
   line-height: 0;
 }
 
-/* line 97, content/stylesheets/./_typography.sass */
+/* line 97, content/css/./_typography.sass */
 abbr, acronym {
   border-bottom: 1px dotted #666666;
 }
 
-/* line 100, content/stylesheets/./_typography.sass */
+/* line 100, content/css/./_typography.sass */
 address {
   margin: 0 0 1.5em;
   font-style: italic;
 }
 
-/* line 104, content/stylesheets/./_typography.sass */
+/* line 104, content/css/./_typography.sass */
 del {
   color: #666666;
 }
 
-/* line 107, content/stylesheets/./_typography.sass */
+/* line 107, content/css/./_typography.sass */
 pre {
   margin: 1.5em 0;
   white-space: pre;
@@ -219,294 +219,294 @@ pre {
   line-height: 1.5;
 }
 
-/* line 113, content/stylesheets/./_typography.sass */
+/* line 113, content/css/./_typography.sass */
 code, tt {
   font: 1em "andale mono", "lucida console", monospace;
   line-height: 1.5;
 }
 
-/* line 118, content/stylesheets/./_typography.sass */
+/* line 118, content/css/./_typography.sass */
 li ul, li ol {
   margin: 0;
 }
 
-/* line 121, content/stylesheets/./_typography.sass */
+/* line 121, content/css/./_typography.sass */
 ul, ol {
   margin: 0 1.5em 1.5em 0;
   padding-left: 3.333em;
 }
 
-/* line 125, content/stylesheets/./_typography.sass */
+/* line 125, content/css/./_typography.sass */
 ul {
   list-style-type: disc;
 }
 
-/* line 128, content/stylesheets/./_typography.sass */
+/* line 128, content/css/./_typography.sass */
 ol {
   list-style-type: decimal;
 }
 
-/* line 131, content/stylesheets/./_typography.sass */
+/* line 131, content/css/./_typography.sass */
 dl {
   margin: 0 0 1.5em 0;
 }
-/* line 133, content/stylesheets/./_typography.sass */
+/* line 133, content/css/./_typography.sass */
 dl dt {
   font-weight: bold;
 }
 
-/* line 136, content/stylesheets/./_typography.sass */
+/* line 136, content/css/./_typography.sass */
 dd {
   margin-left: 1.5em;
 }
 
-/* line 139, content/stylesheets/./_typography.sass */
+/* line 139, content/css/./_typography.sass */
 table {
   margin-bottom: 1.4em;
   width: 100%;
 }
 
-/* line 143, content/stylesheets/./_typography.sass */
+/* line 143, content/css/./_typography.sass */
 th {
   font-weight: bold;
 }
 
-/* line 146, content/stylesheets/./_typography.sass */
+/* line 146, content/css/./_typography.sass */
 thead th {
   background: #c3d9ff;
 }
 
-/* line 149, content/stylesheets/./_typography.sass */
+/* line 149, content/css/./_typography.sass */
 th, td, caption {
   padding: 4px 10px 4px 5px;
 }
 
-/* line 152, content/stylesheets/./_typography.sass */
+/* line 152, content/css/./_typography.sass */
 tr.even td {
   background: #e5ecf9;
 }
 
-/* line 155, content/stylesheets/./_typography.sass */
+/* line 155, content/css/./_typography.sass */
 tfoot {
   font-style: italic;
 }
 
-/* line 158, content/stylesheets/./_typography.sass */
+/* line 158, content/css/./_typography.sass */
 caption {
   background: #eeeeee;
 }
 
-/* line 161, content/stylesheets/./_typography.sass */
+/* line 161, content/css/./_typography.sass */
 .small {
   font-size: 0.8em;
   margin-bottom: 1.875em;
   line-height: 1.875em;
 }
 
-/* line 166, content/stylesheets/./_typography.sass */
+/* line 166, content/css/./_typography.sass */
 .large {
   font-size: 1.2em;
   line-height: 2.5em;
   margin-bottom: 1.25em;
 }
 
-/* line 171, content/stylesheets/./_typography.sass */
+/* line 171, content/css/./_typography.sass */
 .hide {
   display: none;
 }
 
-/* line 174, content/stylesheets/./_typography.sass */
+/* line 174, content/css/./_typography.sass */
 .quiet {
   color: #666666;
 }
 
-/* line 177, content/stylesheets/./_typography.sass */
+/* line 177, content/css/./_typography.sass */
 .loud {
   color: black;
 }
 
-/* line 180, content/stylesheets/./_typography.sass */
+/* line 180, content/css/./_typography.sass */
 .highlight {
   background: yellow;
 }
 
-/* line 183, content/stylesheets/./_typography.sass */
+/* line 183, content/css/./_typography.sass */
 .added {
   background: #006600;
   color: white;
 }
 
-/* line 187, content/stylesheets/./_typography.sass */
+/* line 187, content/css/./_typography.sass */
 .removed {
   background: #990000;
   color: white;
 }
 
-/* line 191, content/stylesheets/./_typography.sass */
+/* line 191, content/css/./_typography.sass */
 .first {
   margin-left: 0;
   padding-left: 0;
 }
 
-/* line 195, content/stylesheets/./_typography.sass */
+/* line 195, content/css/./_typography.sass */
 .last {
   margin-right: 0;
   padding-right: 0;
 }
 
-/* line 199, content/stylesheets/./_typography.sass */
+/* line 199, content/css/./_typography.sass */
 .top {
   margin-top: 0;
   padding-top: 0;
 }
 
-/* line 203, content/stylesheets/./_typography.sass */
+/* line 203, content/css/./_typography.sass */
 .bottom {
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-/* line 1, content/stylesheets/./_forms.sass */
+/* line 1, content/css/./_forms.sass */
 label {
   font-weight: bold;
 }
 
-/* line 4, content/stylesheets/./_forms.sass */
+/* line 4, content/css/./_forms.sass */
 fieldset {
   padding: 1.4em;
   margin: 0 0 1.5em 0;
   border: 1px solid #cccccc;
 }
 
-/* line 9, content/stylesheets/./_forms.sass */
+/* line 9, content/css/./_forms.sass */
 legend {
   font-weight: bold;
   font-size: 1.2em;
 }
 
-/* line 14, content/stylesheets/./_forms.sass */
+/* line 14, content/css/./_forms.sass */
 input[type=text], input[type=password], input.text, input.title {
   background-color: white;
   border: 1px solid #bbbbbb;
 }
 
-/* line 18, content/stylesheets/./_forms.sass */
+/* line 18, content/css/./_forms.sass */
 textarea, select {
   background-color: white;
   border: 1px solid #bbbbbb;
 }
 
-/* line 23, content/stylesheets/./_forms.sass */
+/* line 23, content/css/./_forms.sass */
 input[type=text]:focus, input[type=password]:focus, input.text:focus, input.title:focus {
   border-color: #666666;
 }
 
-/* line 26, content/stylesheets/./_forms.sass */
+/* line 26, content/css/./_forms.sass */
 textarea:focus, select:focus {
   border-color: #666666;
 }
 
-/* line 30, content/stylesheets/./_forms.sass */
+/* line 30, content/css/./_forms.sass */
 input[type=text], input[type=password], input.text, input.title {
   margin: 0.5em 0;
 }
 
-/* line 33, content/stylesheets/./_forms.sass */
+/* line 33, content/css/./_forms.sass */
 textarea, select {
   margin: 0.5em 0;
 }
 
-/* line 37, content/stylesheets/./_forms.sass */
+/* line 37, content/css/./_forms.sass */
 input.text {
   width: 300px;
   padding: 5px;
 }
-/* line 40, content/stylesheets/./_forms.sass */
+/* line 40, content/css/./_forms.sass */
 input.title {
   width: 300px;
   padding: 5px;
   font-size: 1.5em;
 }
 
-/* line 45, content/stylesheets/./_forms.sass */
+/* line 45, content/css/./_forms.sass */
 textarea {
   width: 390px;
   height: 250px;
   padding: 5px;
 }
 
-/* line 51, content/stylesheets/./_forms.sass */
+/* line 51, content/css/./_forms.sass */
 input[type=checkbox], input[type=radio], input.checkbox, input.radio {
   position: relative;
   top: 0.25em;
 }
 
-/* line 55, content/stylesheets/./_forms.sass */
+/* line 55, content/css/./_forms.sass */
 form.inline {
   line-height: 3;
 }
-/* line 57, content/stylesheets/./_forms.sass */
+/* line 57, content/css/./_forms.sass */
 form.inline p {
   margin-bottom: 0;
 }
 
-/* line 60, content/stylesheets/./_forms.sass */
+/* line 60, content/css/./_forms.sass */
 .error, .notice, .success {
   padding: 0.8em;
   margin-bottom: 1em;
   border: 2px solid #dddddd;
 }
 
-/* line 65, content/stylesheets/./_forms.sass */
+/* line 65, content/css/./_forms.sass */
 .error {
   background: #fbe3e4;
   color: #8a1f11;
   border-color: #fbc2c4;
 }
 
-/* line 70, content/stylesheets/./_forms.sass */
+/* line 70, content/css/./_forms.sass */
 .notice {
   background: #fff6bf;
   color: #514721;
   border-color: #ffd324;
 }
 
-/* line 75, content/stylesheets/./_forms.sass */
+/* line 75, content/css/./_forms.sass */
 .success {
   background: #e6efc2;
   color: #264409;
   border-color: #c6d880;
 }
 
-/* line 80, content/stylesheets/./_forms.sass */
+/* line 80, content/css/./_forms.sass */
 .error a {
   color: #8a1f11;
 }
 
-/* line 83, content/stylesheets/./_forms.sass */
+/* line 83, content/css/./_forms.sass */
 .notice a {
   color: #514721;
 }
 
-/* line 86, content/stylesheets/./_forms.sass */
+/* line 86, content/css/./_forms.sass */
 .success a {
   color: #264409;
 }
 
-/* line 1, content/stylesheets/./_layout.sass */
+/* line 1, content/css/./_layout.sass */
 body {
   color: #3d423d;
   font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
   background: #fbffc4 no-repeat center top;
 }
 
-/* line 6, content/stylesheets/./_layout.sass */
+/* line 6, content/css/./_layout.sass */
 .container {
   width: 900px;
   margin: 0 auto;
 }
 
-/* line 12, content/stylesheets/./_layout.sass */
+/* line 12, content/css/./_layout.sass */
 #header {
   float: left;
   /*background: rgb(38, 126, 157); */
@@ -521,18 +521,18 @@ body {
   /*border-right-style: none; */
   /*border-left-style: none; */
 }
-/* line 25, content/stylesheets/./_layout.sass */
+/* line 25, content/css/./_layout.sass */
 #header .title {
   width: 585px;
   margin-right: 15px;
   float: left;
   padding-top: 10px;
 }
-/* line 30, content/stylesheets/./_layout.sass */
+/* line 30, content/css/./_layout.sass */
 #header .menu {
   float: left;
 }
-/* line 32, content/stylesheets/./_layout.sass */
+/* line 32, content/css/./_layout.sass */
 #header .nav {
   list-style-type: none;
   padding-left: 0;
@@ -540,12 +540,12 @@ body {
   float: left;
   margin-right: 0;
 }
-/* line 38, content/stylesheets/./_layout.sass */
+/* line 38, content/css/./_layout.sass */
 #header .nav li {
   padding-bottom: 0.325em;
   width: 285px;
 }
-/* line 41, content/stylesheets/./_layout.sass */
+/* line 41, content/css/./_layout.sass */
 #header .nav li span {
   color: #464646;
   color: rgba(0, 0, 0, 0.6);
@@ -553,20 +553,20 @@ body {
   line-height: 1.875;
   margin-left: 1.5em;
 }
-/* line 47, content/stylesheets/./_layout.sass */
+/* line 47, content/css/./_layout.sass */
 #header .nav a {
   text-decoration: none;
   color: white;
   font-weight: bold;
   border-bottom: 2px solid #f6d7ae;
 }
-/* line 52, content/stylesheets/./_layout.sass */
+/* line 52, content/css/./_layout.sass */
 #header .nav a:focus, #header .nav a:hover {
   color: #efae63;
   border-bottom: 2px solid #efae63;
 }
 
-/* line 58, content/stylesheets/./_layout.sass */
+/* line 58, content/css/./_layout.sass */
 #footer {
   width: 100%;
   float: left;
@@ -574,7 +574,7 @@ body {
   background-color: #9d896f;
   background-color: rgba(157, 137, 111, 0.45);
 }
-/* line 64, content/stylesheets/./_layout.sass */
+/* line 64, content/css/./_layout.sass */
 #footer .byline {
   float: left;
   width: 235px;
@@ -583,90 +583,90 @@ body {
   font-size: 0.8em;
   line-height: 1.875em;
 }
-/* line 71, content/stylesheets/./_layout.sass */
+/* line 71, content/css/./_layout.sass */
 #footer .menu {
   float: left;
   width: 185px;
   margin-right: 15px;
   margin-bottom: 1.5em;
 }
-/* line 76, content/stylesheets/./_layout.sass */
+/* line 76, content/css/./_layout.sass */
 #footer .menu .nav {
   padding-left: 0;
   list-style-type: none;
 }
-/* line 79, content/stylesheets/./_layout.sass */
+/* line 79, content/css/./_layout.sass */
 #footer .menu .nav li {
   font-size: 0.8em;
   line-height: 1.875em;
 }
-/* line 82, content/stylesheets/./_layout.sass */
+/* line 82, content/css/./_layout.sass */
 #footer #menu-3 {
   margin-right: 0;
 }
-/* line 84, content/stylesheets/./_layout.sass */
+/* line 84, content/css/./_layout.sass */
 #footer .menu .nav a {
   color: #3a403b;
   text-decoration: none;
 }
 
-/* line 1, content/stylesheets/./_home.sass */
+/* line 1, content/css/./_home.sass */
 .home-page {
   background-image: url(/images/bg_ani.png);
 }
-/* line 6, content/stylesheets/./_home.sass */
+/* line 6, content/css/./_home.sass */
 .home-page .top-story {
   margin-bottom: 1.5em;
   float: left;
   width: 900px;
   padding-top: 1.5em;
 }
-/* line 11, content/stylesheets/./_home.sass */
+/* line 11, content/css/./_home.sass */
 .home-page .top-story .story {
   width: 300px;
   padding-left: 600px;
 }
-/* line 14, content/stylesheets/./_home.sass */
+/* line 14, content/css/./_home.sass */
 .home-page .top-story .story h4 {
   margin-bottom: 0;
 }
-/* line 16, content/stylesheets/./_home.sass */
+/* line 16, content/css/./_home.sass */
 .home-page .top-story .story p {
   font-size: 0.8em;
   line-height: 1.875;
   margin-bottom: 0;
 }
-/* line 56, content/stylesheets/./_home.sass */
+/* line 56, content/css/./_home.sass */
 .home-page .projects {
   width: 585px;
   float: left;
   margin-right: 15px;
   margin-top: 4.5em;
 }
-/* line 64, content/stylesheets/./_home.sass */
+/* line 64, content/css/./_home.sass */
 .home-page .projects .project {
   float: left;
   width: 285px;
   margin-right: 15px;
   margin-bottom: 1.5em;
 }
-/* line 70, content/stylesheets/./_home.sass */
+/* line 70, content/css/./_home.sass */
 .home-page .projects .project img {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-/* line 72, content/stylesheets/./_home.sass */
+/* line 82, content/css/./_home.sass */
 .home-page .projects .project h4 {
   margin-bottom: 0;
   font-size: 1.5em;
   line-height: 2;
   font-weight: 500;
 }
-/* line 77, content/stylesheets/./_home.sass */
+/* line 87, content/css/./_home.sass */
 .home-page .projects .project .meta {
   font-size: 0.8em;
   line-height: 1.875;
 }
-/* line 80, content/stylesheets/./_home.sass */
+/* line 90, content/css/./_home.sass */
 .home-page .projects .project .type {
   background-color: #bda586;
   background-color: rgba(189, 165, 134, 0.45);
@@ -678,11 +678,11 @@ body {
   padding: 0.5em 1em;
   font-weight: bold;
 }
-/* line 91, content/stylesheets/./_home.sass */
+/* line 101, content/css/./_home.sass */
 .home-page #project-2, .home-page #project-4, .home-page #project-6, .home-page #project-8, .home-page #project-10, .home-page #project-12 {
   margin-right: 0;
 }
-/* line 108, content/stylesheets/./_home.sass */
+/* line 118, content/css/./_home.sass */
 .home-page #about {
   margin-right: 0;
   width: 285px;
@@ -690,23 +690,23 @@ body {
   padding-top: 0;
   float: left;
 }
-/* line 114, content/stylesheets/./_home.sass */
+/* line 124, content/css/./_home.sass */
 .home-page #about h2 {
   margin-bottom: 0;
 }
-/* line 116, content/stylesheets/./_home.sass */
+/* line 126, content/css/./_home.sass */
 .home-page #about .inner {
   padding: 1.5em;
   background-color: #f9f8a4;
   background-color: rgba(246, 215, 17, 0.18);
 }
-/* line 120, content/stylesheets/./_home.sass */
+/* line 130, content/css/./_home.sass */
 .home-page #about i {
   font-weight: bold;
   margin-bottom: 0;
 }
 
-/* line 2, content/stylesheets/./_about.sass */
+/* line 2, content/css/./_about.sass */
 .about-page .about {
   padding-top: 3em;
   float: left;
@@ -714,73 +714,73 @@ body {
   padding-bottom: 3em;
   width: 585px;
 }
-/* line 11, content/stylesheets/./_about.sass */
+/* line 11, content/css/./_about.sass */
 .about-page .infos {
   float: left;
   width: 900px;
 }
-/* line 15, content/stylesheets/./_about.sass */
+/* line 15, content/css/./_about.sass */
 .about-page .info {
   width: 235px;
   margin-right: 15px;
   float: left;
   padding-right: 50px;
 }
-/* line 21, content/stylesheets/./_about.sass */
+/* line 21, content/css/./_about.sass */
 .about-page #info-3 {
   margin-right: 0;
 }
 
-/* line 1, content/stylesheets/./_work.sass */
+/* line 1, content/css/./_work.sass */
 .work-page {
   background-image: url(/images/bg_work.png);
 }
-/* line 4, content/stylesheets/./_work.sass */
+/* line 4, content/css/./_work.sass */
 .work-page .work {
   padding-top: 3em;
   float: left;
   padding-bottom: 3em;
 }
-/* line 9, content/stylesheets/./_work.sass */
+/* line 9, content/css/./_work.sass */
 .work-page .intro {
   width: 235px;
   margin-right: 15px;
   float: left;
   padding-right: 50px;
 }
-/* line 17, content/stylesheets/./_work.sass */
+/* line 17, content/css/./_work.sass */
 .work-page .projects {
   width: 585px;
   float: left;
 }
-/* line 21, content/stylesheets/./_work.sass */
+/* line 21, content/css/./_work.sass */
 .work-page .project {
   float: left;
   width: 285px;
   margin-right: 15px;
   margin-bottom: 1.5em;
 }
-/* line 27, content/stylesheets/./_work.sass */
+/* line 27, content/css/./_work.sass */
 .work-page #project-2, .work-page #project-4, .work-page #project-6, .work-page #project-8, .work-page #project-10, .work-page #project-12 {
   margin-right: 0;
 }
-/* line 31, content/stylesheets/./_work.sass */
+/* line 31, content/css/./_work.sass */
 .work-page .project img {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-/* line 33, content/stylesheets/./_work.sass */
+/* line 33, content/css/./_work.sass */
 .work-page .project h4 {
   margin-bottom: 0;
   font-size: 1.5em;
   line-height: 2;
   font-weight: 500;
 }
-/* line 38, content/stylesheets/./_work.sass */
+/* line 38, content/css/./_work.sass */
 .work-page .project .meta {
   font-size: 0.8em;
   line-height: 1.875;
 }
-/* line 41, content/stylesheets/./_work.sass */
+/* line 41, content/css/./_work.sass */
 .work-page .project .type {
   background-color: #bda586;
   background-color: rgba(189, 165, 134, 0.45);
@@ -793,7 +793,7 @@ body {
   font-weight: bold;
 }
 
-/* line 4, content/stylesheets/./_article.sass */
+/* line 4, content/css/./_article.sass */
 .article-page .story {
   padding-top: 3em;
   float: left;
@@ -802,40 +802,40 @@ body {
   margin-right: 15px;
   padding-right: 50px;
 }
-/* line 12, content/stylesheets/./_article.sass */
+/* line 12, content/css/./_article.sass */
 .article-page code {
   background-color: rgba(255, 255, 255, 0.5);
   display: block;
   border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 0 1.5em;
 }
-/* line 20, content/stylesheets/./_article.sass */
+/* line 20, content/css/./_article.sass */
 .article-page .more-articles {
   width: 285px;
   float: left;
 }
-/* line 23, content/stylesheets/./_article.sass */
+/* line 23, content/css/./_article.sass */
 .article-page .more-articles .inner {
   padding: 1.5em;
   background-color: #f9f8a4;
   background-color: rgba(246, 215, 17, 0.18);
 }
-/* line 27, content/stylesheets/./_article.sass */
+/* line 27, content/css/./_article.sass */
 .article-page .more-articles h4 {
   font-weight: bold;
   margin-bottom: 0;
 }
-/* line 30, content/stylesheets/./_article.sass */
+/* line 30, content/css/./_article.sass */
 .article-page .more-articles .meta {
   font-size: 0.8em;
   line-height: 1.875;
 }
 
-/* line 1, content/stylesheets/./_project.sass */
+/* line 1, content/css/./_project.sass */
 .project-page {
   background-image: url(/images/bg_work.png);
 }
-/* line 6, content/stylesheets/./_project.sass */
+/* line 6, content/css/./_project.sass */
 .project-page .project {
   padding-top: 3em;
   float: left;
@@ -843,18 +843,18 @@ body {
   padding-bottom: 3em;
   width: 585px;
 }
-/* line 12, content/stylesheets/./_project.sass */
+/* line 12, content/css/./_project.sass */
 .project-page .project h1 {
   margin-bottom: 0;
   line-height: 1.8;
 }
-/* line 15, content/stylesheets/./_project.sass */
+/* line 15, content/css/./_project.sass */
 .project-page .project .meta {
   font-size: 0.8em;
   line-height: 1.875;
   margin-bottom: 3em;
 }
-/* line 19, content/stylesheets/./_project.sass */
+/* line 19, content/css/./_project.sass */
 .project-page .project .type {
   background-color: #bda586;
   background-color: rgba(189, 165, 134, 0.45);
@@ -866,38 +866,38 @@ body {
   padding: 0.5em 1em;
   font-weight: bold;
 }
-/* line 29, content/stylesheets/./_project.sass */
+/* line 29, content/css/./_project.sass */
 .project-page .project img {
   border: 2px solid #dcdcdc;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-/* line 35, content/stylesheets/./_project.sass */
+/* line 35, content/css/./_project.sass */
 .project-page .more-work {
   width: 285px;
   float: left;
 }
-/* line 38, content/stylesheets/./_project.sass */
+/* line 38, content/css/./_project.sass */
 .project-page .more-work .inner {
   padding: 1.5em;
   background-color: #f9f8a4;
   background-color: rgba(246, 215, 17, 0.18);
 }
-/* line 44, content/stylesheets/./_project.sass */
+/* line 44, content/css/./_project.sass */
 .project-page table.work td {
   vertical-align: top;
 }
-/* line 46, content/stylesheets/./_project.sass */
+/* line 46, content/css/./_project.sass */
 .project-page table.work strong {
   display: block;
   font-weight: bold;
 }
-/* line 49, content/stylesheets/./_project.sass */
+/* line 49, content/css/./_project.sass */
 .project-page table.work span {
   font-size: 0.8em;
   line-height: 1.875;
   color: #796a56;
 }
-/* line 53, content/stylesheets/./_project.sass */
+/* line 53, content/css/./_project.sass */
 .project-page table.work img {
   border: 2px solid white;
   border: 2px solid rgba(255, 255, 255, 0.5);

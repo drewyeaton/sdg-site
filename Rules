@@ -5,11 +5,11 @@ Compass.add_project_configuration 'config/compass.config'
 
 # compilation rules
 
-compile '/stylesheets/*/' do
+compile '/css/*/' do
    filter :sass, Compass.sass_engine_options
 end
 
-route '/stylesheets/*/' do
+route '/css/*/' do
    item.identifier.chop + '.css'
 end
 

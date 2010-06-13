@@ -1,60 +1,60 @@
-/* line 1, content/stylesheets/_home.sass */
+/* line 1, content/css/_home.sass */
 .home-page {
   background-image: url(/images/bg_ani.png);
 }
-/* line 6, content/stylesheets/_home.sass */
+/* line 6, content/css/_home.sass */
 .home-page .top-story {
   margin-bottom: 1.5em;
   float: left;
   width: 900px;
   padding-top: 1.5em;
 }
-/* line 11, content/stylesheets/_home.sass */
+/* line 11, content/css/_home.sass */
 .home-page .top-story .story {
   width: 300px;
   padding-left: 600px;
 }
-/* line 14, content/stylesheets/_home.sass */
+/* line 14, content/css/_home.sass */
 .home-page .top-story .story h4 {
   margin-bottom: 0;
 }
-/* line 16, content/stylesheets/_home.sass */
+/* line 16, content/css/_home.sass */
 .home-page .top-story .story p {
   font-size: 0.8em;
   line-height: 1.875;
   margin-bottom: 0;
 }
-/* line 56, content/stylesheets/_home.sass */
+/* line 56, content/css/_home.sass */
 .home-page .projects {
   width: 585px;
   float: left;
   margin-right: 15px;
   margin-top: 4.5em;
 }
-/* line 64, content/stylesheets/_home.sass */
+/* line 64, content/css/_home.sass */
 .home-page .projects .project {
   float: left;
   width: 285px;
   margin-right: 15px;
   margin-bottom: 1.5em;
 }
-/* line 70, content/stylesheets/_home.sass */
+/* line 70, content/css/_home.sass */
 .home-page .projects .project img {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
-/* line 72, content/stylesheets/_home.sass */
+/* line 82, content/css/_home.sass */
 .home-page .projects .project h4 {
   margin-bottom: 0;
   font-size: 1.5em;
   line-height: 2;
   font-weight: 500;
 }
-/* line 77, content/stylesheets/_home.sass */
+/* line 87, content/css/_home.sass */
 .home-page .projects .project .meta {
   font-size: 0.8em;
   line-height: 1.875;
 }
-/* line 80, content/stylesheets/_home.sass */
+/* line 90, content/css/_home.sass */
 .home-page .projects .project .type {
   background-color: #bda586;
   background-color: rgba(189, 165, 134, 0.45);
@@ -66,11 +66,11 @@
   padding: 0.5em 1em;
   font-weight: bold;
 }
-/* line 91, content/stylesheets/_home.sass */
+/* line 101, content/css/_home.sass */
 .home-page #project-2, .home-page #project-4, .home-page #project-6, .home-page #project-8, .home-page #project-10, .home-page #project-12 {
   margin-right: 0;
 }
-/* line 108, content/stylesheets/_home.sass */
+/* line 118, content/css/_home.sass */
 .home-page #about {
   margin-right: 0;
   width: 285px;
@@ -78,17 +78,17 @@
   padding-top: 0;
   float: left;
 }
-/* line 114, content/stylesheets/_home.sass */
+/* line 124, content/css/_home.sass */
 .home-page #about h2 {
   margin-bottom: 0;
 }
-/* line 116, content/stylesheets/_home.sass */
+/* line 126, content/css/_home.sass */
 .home-page #about .inner {
   padding: 1.5em;
   background-color: #f9f8a4;
   background-color: rgba(246, 215, 17, 0.18);
 }
-/* line 120, content/stylesheets/_home.sass */
+/* line 130, content/css/_home.sass */
 .home-page #about i {
   font-weight: bold;
   margin-bottom: 0;
