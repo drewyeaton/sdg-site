@@ -652,45 +652,66 @@ body {
   width: 285px;
   height: 144px;
   z-index: 1;
-}
-/* line 71, content/css/./_home.sass */
-.home-page .projects .face.back {
-  display: none;
-}
-/* line 74, content/css/./_home.sass */
-.home-page .projects .project {
   -webkit-perspective: 1000;
 }
-/* line 77, content/css/./_home.sass */
-.home-page .projects .card {
+/* line 72, content/css/./_home.sass */
+.home-page .projects .project .card {
   width: 100%;
   height: 100%;
   -webkit-transform-style: preserve-3d;
-  -webkit-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.3s ease-out;
 }
-/* line 83, content/css/./_home.sass */
-.home-page .projects .project:hover .card, .home-page .projects .project.hover_effect .card {
+/* line 78, content/css/./_home.sass */
+.home-page .projects .project:hover .card {
   -webkit-transform: rotateX(180deg);
 }
-/* line 86, content/css/./_home.sass */
+/* line 81, content/css/./_home.sass */
+.home-page .projects .face.back {
+  display: none;
+}
+/* line 84, content/css/./_home.sass */
 .home-page .projects .face {
   position: absolute;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
 }
-/* line 92, content/css/./_home.sass */
+/* line 90, content/css/./_home.sass */
 .home-page .projects .face.back {
   display: block;
   -webkit-transform: rotateX(180deg);
   -webkit-box-sizing: border-box;
-  background-color: #aaaaaa;
+  background-color: white;
 }
-/* line 176, content/css/./_home.sass */
+/* line 96, content/css/./_home.sass */
+.home-page .projects .face.back h4 {
+  margin-bottom: 0;
+  font-size: 1.5em;
+  line-height: 2;
+  font-weight: 700;
+}
+/* line 102, content/css/./_home.sass */
+.home-page .projects .face.back .meta {
+  font-size: 0.8em;
+  line-height: 1.875;
+}
+/* line 106, content/css/./_home.sass */
+.home-page .projects .face.back .type {
+  background-color: #bda586;
+  background-color: rgba(189, 165, 134, 0.45);
+  margin-right: 2px;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+  border-top: 1px solid white;
+  padding: 0.5em 1em;
+  font-weight: bold;
+}
+/* line 117, content/css/./_home.sass */
 .home-page #project-2, .home-page #project-4, .home-page #project-6, .home-page #project-8, .home-page #project-10, .home-page #project-12 {
   margin-right: 0;
 }
-/* line 193, content/css/./_home.sass */
+/* line 134, content/css/./_home.sass */
 .home-page #about {
   margin-right: 0;
   width: 285px;
@@ -698,17 +719,17 @@ body {
   padding-top: 0;
   float: left;
 }
-/* line 199, content/css/./_home.sass */
+/* line 140, content/css/./_home.sass */
 .home-page #about h2 {
   margin-bottom: 0;
 }
-/* line 201, content/css/./_home.sass */
+/* line 142, content/css/./_home.sass */
 .home-page #about .inner {
   padding: 1.5em;
   background-color: #f9f8a4;
   background-color: rgba(246, 215, 17, 0.18);
 }
-/* line 205, content/css/./_home.sass */
+/* line 146, content/css/./_home.sass */
 .home-page #about i {
   font-weight: bold;
   margin-bottom: 0;
