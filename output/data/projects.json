@@ -40,6 +40,19 @@
             "description": "<p>Recurly recently asked Sentinel Design Group to development a feature-complete Python API client to allow Python developers quick and painless integration with its service.</p><p>The code can be seen on Recurly's GitHub page at <a href='http://github.com/recurly/recurly-client-python'>http://github.com/recurly/recurly-client-python</a></p>"
         },
         {
+            "slug": "audubon-nature-institute",
+            "title": "Audubon Nature Institute",
+            "bigthumb": "/images/work_bigthumb_ani.png",
+            "thumb": "/images/work_thumb_ani.png",
+            "type": ["Web Design"],
+            "date": "August 10th, 2009",
+            "images": [
+                {"source": "/images/work_ss_ani_home.png", "alt": ""},
+                {"source": "/images/work_ss_ani_aquarium.png", "alt": ""}
+            ],
+            "description": ""
+        },
+        {
             "slug": "do-my-stuff",
             "title": "DoMyStuff.com",
             "bigthumb": "/images/work_bigthumb_dms.png",

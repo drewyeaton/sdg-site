@@ -235,7 +235,7 @@ footer .menu .nav a { color: #3a403b; text-decoration: none; }
 /* line 2, content/css/./_projects.sass */
 .projects-page #sub-nav { display: none; }
 /* line 6, content/css/./_projects.sass */
-.projects-page #stage .projects { width: 900px; float: left; margin-top: 1.5em; }
+.projects-page #stage .projects { width: 900px; float: left; margin-top: 3em; }
 /* line 11, content/css/./_projects.sass */
 .projects-page #stage .projects .project { float: left; position: relative; margin-right: 15px; margin-bottom: 1.5em; }
 /* line 17, content/css/./_projects.sass */

@@ -101,6 +101,11 @@
             return false;
         });
         
+        // this.post("#/contact", function(context) {
+        //     context.redirect("#/");
+        //     return false;
+        // });
+        
 
         ///////////////////////////////////////////////////////////////////////////////
         // Helpers
