@@ -185,7 +185,7 @@ header .container { position: relative; }
 /* line 23, content/css/./_layout.sass */
 header .logo { position: absolute; top: 32px; }
 /* line 27, content/css/./_layout.sass */
-header nav { position: absolute; top: 32px; right: 0; }
+header nav { position: absolute; top: 32px; right: 15px; }
 /* line 32, content/css/./_layout.sass */
 header nav form { float: left; }
 /* line 34, content/css/./_layout.sass */
