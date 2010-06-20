@@ -8,10 +8,17 @@
         // Views
         
         this.get("#/", function(context) {
-            $("body").attr("class", "projects-page");
-            
             $("nav button").removeClass("clicked");
             $("nav button.projects").addClass("clicked");
+            
+            // make sure that no selections are visible on project page (hacky!)
+            $(".project-nav .highlight-box").hide();
+            
+            if($("#sub-nav").is(":empty")) {
+                $("#sub-nav").hide();
+            } else {
+                $("#sub-nav").slideUp(1000);
+            }
             
             // note: this is ok as a blocking request because our data is
             // static and thus served extremely quickly. we can do this 
@@ -23,18 +30,22 @@
                 $(app.data_element).data("projects", context.projects);
             }
             
-            context.partial("/templates/projects.template", {}, function(rendered) { $("#stage").html(rendered); });
+            context.partial("/templates/projects.template", {}, function(rendered) { 
+                $("#stage").html(rendered); 
+                $("body").attr("class", "projects-page");
+            });
         });
         
         // @todo replace this with a DRYer implementation--this works for now
         this.get("#/project/:slug", function(context) {
             slug = this.params["slug"];
             
-            $("body").attr("class", "project-page");
-            
             $("nav button").removeClass("clicked");
             $("nav button.projects").addClass("clicked");
             
+            $(".project-nav .highlight-box").fadeOut(300);
+            $("#project-"+slug+" .highlight-box").show();
+                        
             context.projects = $(app.data_element).data("projects");
             if(context.projects == undefined) {
                 context.projects = app.load_projects();
@@ -51,12 +62,16 @@
                 }
             }
             if(not_found) app.trigger("error-handler",404);
-            context.partial("/templates/project.template", {}, function(rendered) { $("#stage").html(rendered); });
+            context.partial("/templates/project.template", {}, function(rendered) { 
+                $("#stage").html(rendered); 
+                $("body").attr("class", "project-page");
+            });
             
             // if necessary, populate projects subnav
             if($("#sub-nav").is(":empty")) {
                 this.partial("/templates/project-nav.template", {}, function(rendered) { 
                     $("#sub-nav").html(rendered);
+                    $("#sub-nav").slideDown();
                     
                     // draw our 'highlight box' on each canvas and hide it for
                     // future use. this makes it extremely easy to handle boxes
@@ -67,7 +82,14 @@
                         app.draw_highlight(id);
                         $("#"+id).hide();
                     });
+                    
+                    // notice we tried this at the beginning of this view, but
+                    // the projects subnav wasn't available then.
+                    $("#project-"+slug+" .highlight-box").show();
+                    
                 });
+            } else {
+                $("#sub-nav").slideDown();
             }
         });
         
@@ -87,8 +109,7 @@
         });
         
         $(".project-nav .project").live("click", function() {
-            $(".project-nav .highlight-box").fadeOut(300);
-            $(this).find(".highlight-box").show();            
+            // @todo do something with this click
         });
         
         

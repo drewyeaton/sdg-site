@@ -1,5 +1,11 @@
 @import "button"
 
+// force vertical scrollbar to eliminate page shift. the more i think about
+// this the more i hate it. it'll work for now.
+html 
+  min-height: 100%
+  margin-bottom: 1px
+
 body
   color: #3d423d
   font-family: "Lucida Grande", Lucida, Verdana, sans-serif
@@ -14,6 +20,7 @@ header
   // background-color: #ccc
   background:  #ccc url(/images/bg_header.png) repeat-x bottom
   border-bottom: 1px solid #ececec
+  // border-bottom: 1px solid #444
   width: 100%
   height: 100px
   
@@ -41,6 +48,7 @@ footer
   float: left
   padding-top: 3em
   margin-top: 3em
+  padding-bottom: 1.5em
   background-color: rgb(160, 160, 160)
   background-color: rgba(0, 0, 0, 0.1)
   border-top: 1px solid rgba(255, 255, 255, .6)

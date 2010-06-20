@@ -1,28 +1,30 @@
 /* line 4, content/css/_project.sass */
 .project-page header { border-bottom: 1px solid #111111; }
-/* line 7, content/css/_project.sass */
-.project-page #sub-nav { background: #333333 url(/images/bg_details.png) repeat; border-bottom: 1px solid #ececec; float: left; width: 100%; }
-/* line 16, content/css/_project.sass */
-.project-page .project-nav { width: 900px; float: left; margin-top: 1.5em; }
-/* line 21, content/css/_project.sass */
-.project-page .project-nav .project { float: left; position: relative; margin-right: 15px; margin-bottom: 1.5em; }
-/* line 27, content/css/_project.sass */
-.project-page .project-nav .project a { border-bottom: none; }
-/* line 30, content/css/_project.sass */
-.project-page .project-nav .project a .face { -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; overflow: hidden; width: 50px; height: 36px; border-top: 1px solid rgba(255, 255, 255, 0.3); }
-/* line 42, content/css/_project.sass */
-.project-page .project-nav .project canvas { position: absolute; top: -12px; left: -12px; }
-/* line 48, content/css/_project.sass */
+/* line 8, content/css/_project.sass */
 .project-page #stage .overview { width: 900px; float: left; padding-top: 1em; margin-bottom: 1em; }
-/* line 55, content/css/_project.sass */
+/* line 15, content/css/_project.sass */
 .project-page #stage .overview h1 { color: #333333; margin-bottom: 0.3em; font-size: 2em; line-height: 1.5; font-weight: 300; text-shadow: white 0 -1px 0; }
-/* line 63, content/css/_project.sass */
+/* line 23, content/css/_project.sass */
 .project-page #stage .overview .meta, .project-page #stage .overview .date { color: #666666; font-size: 0.8em; line-height: 0.875; }
-/* line 68, content/css/_project.sass */
+/* line 28, content/css/_project.sass */
 .project-page #stage .overview .type { color: #eeeeee; background-color: #666666; margin-right: 0; -webkit-border-radius: 2em; -moz-border-radius: 2em; border-radius: 2em; padding: 0.25em 0.75em; font-weight: bold; position: relative; left: -8px; }
-/* line 81, content/css/_project.sass */
+/* line 41, content/css/_project.sass */
 .project-page #stage .screenshots { width: 585px; float: left; margin-right: 30px; }
-/* line 86, content/css/_project.sass */
+/* line 46, content/css/_project.sass */
 .project-page #stage .screenshots img { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); }
-/* line 95, content/css/_project.sass */
+/* line 55, content/css/_project.sass */
 .project-page #stage .description { width: 285px; float: left; }
+
+/* line 59, content/css/_project.sass */
+#sub-nav { background: #333333 url(/images/bg_details.png) repeat; border-bottom: 1px solid #ececec; float: left; width: 100%; }
+
+/* line 68, content/css/_project.sass */
+.project-nav { width: 900px; float: left; margin-top: 1.5em; }
+/* line 73, content/css/_project.sass */
+.project-nav .project { float: left; position: relative; margin-right: 15px; margin-bottom: 1.5em; }
+/* line 79, content/css/_project.sass */
+.project-nav .project a { border-bottom: none; }
+/* line 82, content/css/_project.sass */
+.project-nav .project a .face { -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; overflow: hidden; width: 50px; height: 36px; border-top: 1px solid rgba(255, 255, 255, 0.3); }
+/* line 94, content/css/_project.sass */
+.project-nav .project canvas { position: absolute; top: -12px; left: -12px; }

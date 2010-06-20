@@ -1,7 +1,7 @@
 <div class="container">
     <div class="project-nav">
         <% for(var i in projects) { %>
-        <div id="project-<%= i %>" class="project">
+        <div id="project-<%= projects[i].slug %>" class="project">
             <a  href="#/project/<%= projects[i].slug %>">
                 <div class="face">
                     <img src="<%= projects[i].thumb %>" alt="" width="50" height="36" />

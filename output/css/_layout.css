@@ -1,20 +1,23 @@
-/* line 3, content/css/_layout.sass */
+/* line 5, content/css/_layout.sass */
+html { min-height: 100%; margin-bottom: 1px; }
+
+/* line 9, content/css/_layout.sass */
 body { color: #3d423d; font-family: "Lucida Grande", Lucida, Verdana, sans-serif; background: #cccccc url(/images/bg_pinstripe.png) repeat; }
 
-/* line 8, content/css/_layout.sass */
+/* line 14, content/css/_layout.sass */
 .container { width: 900px; margin: 0 auto; }
 
-/* line 12, content/css/_layout.sass */
+/* line 18, content/css/_layout.sass */
 header { float: left; background: #cccccc url(/images/bg_header.png) repeat-x bottom; border-bottom: 1px solid #ececec; width: 100%; height: 100px; }
-/* line 20, content/css/_layout.sass */
-header .container { position: relative; }
-/* line 23, content/css/_layout.sass */
-header .logo { position: absolute; top: 32px; }
 /* line 27, content/css/_layout.sass */
-header nav { position: absolute; top: 32px; right: 15px; }
-/* line 32, content/css/_layout.sass */
-header nav form { float: left; }
+header .container { position: relative; }
+/* line 30, content/css/_layout.sass */
+header .logo { position: absolute; top: 32px; }
 /* line 34, content/css/_layout.sass */
+header nav { position: absolute; top: 32px; right: 15px; }
+/* line 39, content/css/_layout.sass */
+header nav form { float: left; }
+/* line 41, content/css/_layout.sass */
 header nav form button { position: relative; border: 0; padding: 0; cursor: pointer; overflow: visible; padding: 0 10px 0 0; font-size: 1.067em; text-align: center; background: transparent url(/images/rounded_button_30.png) no-repeat right -280px; }
 /* line 10, content/css/./_button.sass */
 header nav form button::-moz-focus-inner { border: none; }
@@ -41,19 +44,19 @@ header nav form button.clicked { background-position: right -490px; cursor: defa
 /* line 61, content/css/./_button.sass */
 header nav form button.clicked span { background-position: 0 -210px; color: white; text-shadow: #222222 0px 1px 0px; }
 
-/* line 39, content/css/_layout.sass */
-footer { width: 100%; float: left; padding-top: 3em; margin-top: 3em; background-color: #a0a0a0; background-color: rgba(0, 0, 0, 0.1); border-top: 1px solid rgba(255, 255, 255, 0.6); }
-/* line 48, content/css/_layout.sass */
+/* line 46, content/css/_layout.sass */
+footer { width: 100%; float: left; padding-top: 3em; margin-top: 3em; padding-bottom: 1.5em; background-color: #a0a0a0; background-color: rgba(0, 0, 0, 0.1); border-top: 1px solid rgba(255, 255, 255, 0.6); }
+/* line 56, content/css/_layout.sass */
 footer .byline, footer .menu { float: left; width: 235px; padding-right: 50px; margin-right: 15px; }
-/* line 54, content/css/_layout.sass */
+/* line 62, content/css/_layout.sass */
 footer .byline h4, footer .menu h4 { margin-bottom: 0; }
-/* line 57, content/css/_layout.sass */
+/* line 65, content/css/_layout.sass */
 footer .byline p, footer .menu p { font-size: 0.8em; line-height: 1.875em; }
-/* line 61, content/css/_layout.sass */
-footer .byline .nav, footer .menu .nav { padding-left: 0; list-style-type: none; }
-/* line 64, content/css/_layout.sass */
-footer .byline .nav li, footer .menu .nav li { font-size: 0.8em; line-height: 1.875em; }
-/* line 67, content/css/_layout.sass */
-footer #menu-3 { margin-right: 0; }
 /* line 69, content/css/_layout.sass */
+footer .byline .nav, footer .menu .nav { padding-left: 0; list-style-type: none; }
+/* line 72, content/css/_layout.sass */
+footer .byline .nav li, footer .menu .nav li { font-size: 0.8em; line-height: 1.875em; }
+/* line 75, content/css/_layout.sass */
+footer #menu-3 { margin-right: 0; }
+/* line 77, content/css/_layout.sass */
 footer .menu .nav a { color: #3a403b; text-decoration: none; }
