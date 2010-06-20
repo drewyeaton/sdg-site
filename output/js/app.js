@@ -1,10 +1,8 @@
 (function($) {
     var app = $.sammy(function() {
-        this.element_selector = "#stage";
+        this.element_selector = "body";
         this.data_element = this.element_selector;
         this.use(Sammy.Template);
-        
-
         
         ///////////////////////////////////////////////////////////////////////////////
         // Views
@@ -90,8 +88,20 @@
         });
         
         
+        ///////////////////////////////////////////////////////////////////////////////
+        // Post
         
+        this.post("#/", function(context) {
+            context.redirect("#/");
+            return false;
+        });
         
+        this.post("#/about", function(context) {
+            context.redirect("#/");
+            return false;
+        });
+        
+
         ///////////////////////////////////////////////////////////////////////////////
         // Helpers
         
@@ -211,6 +221,7 @@
             ctx.quadraticCurveTo(x, y, x, y+radius);
             ctx.fill();
         }
+
         
     });
 
