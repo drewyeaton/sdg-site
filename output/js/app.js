@@ -55,7 +55,19 @@
             
             // if necessary, populate projects subnav
             if($("#sub-nav").is(":empty")) {
-                this.partial("/templates/project-nav.template", {}, function(rendered) { $("#sub-nav").html(rendered); });
+                this.partial("/templates/project-nav.template", {}, function(rendered) { 
+                    $("#sub-nav").html(rendered);
+                    
+                    // draw our 'highlight box' on each canvas and hide it for
+                    // future use. this makes it extremely easy to handle boxes
+                    // of different sizes since dimensions are calculated based on
+                    // the size of the canvas element itself.
+                    $("#sub-nav .highlight-box").each(function(index) {
+                        id = $(this).attr('id');
+                        app.draw_highlight(id);
+                        $("#"+id).hide();
+                    });
+                });
             }
         });
         
@@ -75,16 +87,8 @@
         });
         
         $(".project-nav .project").live("click", function() {
-            $(".project-nav canvas").fadeOut(200, function() { $(this).remove(); });
-            
-            // @todo this is hacky for now
-            id = "highlight-" + Math.floor(Math.random() * 1000);
-            var canvas = $('<canvas width="74" height="72" id="'+id+'"></canvas>');
-            
-            $(this).append(canvas);            
-            app.draw_highlight(id);
-            // $("#"+id).hide().fadeIn(200);
-            
+            $(".project-nav .highlight-box").fadeOut(300);
+            $(this).find(".highlight-box").show();            
         });
         
         

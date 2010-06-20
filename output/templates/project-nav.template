@@ -7,6 +7,7 @@
                     <img src="<%= projects[i].thumb %>" alt="" width="50" height="36" />
                 </div>
             </a>
+            <canvas width="74" height="72" id="highlight<%= i %>" class="highlight-box"></canvas>
         </div>
         <% } %>
     </div>
