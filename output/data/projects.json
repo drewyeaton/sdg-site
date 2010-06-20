@@ -8,10 +8,10 @@
             "type": ["Logo", "Branding", "Web Design"],
             "date": "May 10th, 2010",
             "images": [
-                {"source": "/images/work_ss_seevolution_logo.png", "alt": ""},
-                {"source": "/images/work_ss_seevolution_home.png", "alt": ""}
+                {"source": "/images/work_ss_seevolution_logo.png", "alt": "", "link": ""},
+                {"source": "/images/work_ss_seevolution_home.png", "alt": "", "link": ""}
             ],
-            "description": "<p>Seevolution is complex, multi-dimensional visitor analytics and x-ray made simple. Seevolution called on Sentinel Design to help create simple data visualization, interface design and sign-up process. The core of Seevolutions offering is an on-site toolbar that provides traffic data on the actual page that generates it. Sentinel Design created these interface elements and helped shaped future features.</p><p>Seevolution is <a href='http://www.seevolution.com/' target='blank'>launching soon</a>.</p>"
+            "description": "<p>Seevolution is complex, multi-dimensional visitor analytics and x-ray made simple. The core of Seevolution&rsquo;s offering is an on-site toolbar that provides traffic data on the actual page that generates it. Seevolution called on Sentinel Design to help create a simple way to interact with and visualize the multitude of data points they are collecting for their customers and also to develop a minimal-friction sign-up process.</p><p>Sentinel Design started  by developing a system of displaying multiple chart-filled panels all contained in a toolbar-style interface. Using best practices and 8 years of web development experience, Sentinel Design also created a website to advertise the service and convert visitors into customers. The Seevolution website was also designed with HTML5 and CSS3 features in mind so that developers could easily apply new CSS trickery to create a beautiful, standards-based website.</p><p>Seevolution is <a href='http://www.seevolution.com/' target='blank'>launching soon</a>.</p>"
         },
         {
             "slug": "simplypowered",
@@ -21,11 +21,11 @@
             "type": ["Logo", "Branding"],
             "date": "April 17th, 2010",
             "images": [
-                {"source": "/images/work_ss_simplypowered_logo.png", "alt": ""},
-                {"source": "/images/work_ss_simplypowered_home_on_tile.png", "alt": ""},
-                {"source": "/images/work_ss_simplypowered_home.png", "alt": ""}
+                {"source": "/images/work_ss_simplypowered_logo.png", "alt": "", "link": ""},
+                {"source": "/images/work_ss_simplypowered_home_on_tile.png", "alt": "", "link": ""},
+                {"source": "/images/work_ss_simplypowered_home.png", "alt": "", "link": ""}
             ],
-            "description": ""
+            "description": "<p>SimplyPowered, started in early 2010, takes a multi-pronged approach to providing simple, affordable green energy for everyone. The core philosophy of SimplyPowered is to take mass-produced, easily attainable clean tech, and package it in a way that accessible to the non-tech-savvy home owner. Sentinel Design&rsquo;s job was to develop a brand that encompass these ideas and create a system that communicates how powerful or efficient SimplyPowered's systems are.</p><p>Our primary deliverable was the SimplyPowered logo. The circle-squigly-arrow symbol is a common fixture in dictionaries to denote a topic or concept that belongs to the area of electricity. Seeing this as an obvious starting point for a enduring logo, Sentinel Design added some design sensibilities with a durable typeface to create a tough and simple identity for the company.</p><p>The SimplyPowered site can be viewed online at <a href='http://simplypowered.net/' target='_blank'>http://simplypowered.net/</a></p>"
         },
         {
             "slug": "recurly-client",
@@ -35,7 +35,7 @@
             "type": ["Development"],
             "date": "February 22rd, 2010",
             "images": [
-                {"source": "/images/work_ss_recurly_client.png", "alt": ""}
+                {"source": "/images/work_ss_recurly_client.png", "alt": "", "link": ""}
             ],
             "description": "<p>Recurly recently asked Sentinel Design Group to development a feature-complete Python API client to allow Python developers quick and painless integration with its service.</p><p>The code can be seen on Recurly's GitHub page at <a href='http://github.com/recurly/recurly-client-python'>http://github.com/recurly/recurly-client-python</a></p>"
         },
@@ -47,10 +47,22 @@
             "type": ["Web Design"],
             "date": "August 10th, 2009",
             "images": [
-                {"source": "/images/work_ss_ani_home.png", "alt": ""},
-                {"source": "/images/work_ss_ani_aquarium.png", "alt": ""}
+                {"source": "/images/work_ss_ani_home.png", "alt": "", "link": ""},
+                {"source": "/images/work_ss_ani_aquarium.png", "alt": "", "link": ""}
             ],
             "description": ""
+        },
+        {
+            "slug": "flipswap-reasons",
+            "title": "Flipswap Commercial",
+            "bigthumb": "/images/work_bigthumb_flipswap_reasons.png",
+            "thumb": "/images/work_thumb_flipswap_reasons.png",
+            "type": ["Motion Graphics", "Music"],
+            "date": "March 9th, 2009",
+            "images": [
+                {"source": "/images/work_ss_flipswap_reasons.png", "alt": "", "link": "/video/reasons.mov"}
+            ],
+            "description": "<p>The goal of the  &ldquo;Reasons&rdquo; project was to communicate the fun and quirky approach Flipswap takes to helping the environment. Creating and combining various assets within Final Cut Pro, Motion, Cinema 4D and Logic, we created an ensemble that embodied the fresh and funky nature of Flipswap. The result of this work was displayed on the website and displayed at various industry events.</p>"
         },
         {
             "slug": "do-my-stuff",
@@ -60,8 +72,8 @@
             "type": ["Web Design"],
             "date": "February 8th, 2009",
             "images": [
-                {"source": "/images/work_ss_dms_home.png", "alt": ""},
-                {"source": "/images/work_ss_dms_browse.png", "alt": ""}
+                {"source": "/images/work_ss_dms_home.png", "alt": "", "link": ""},
+                {"source": "/images/work_ss_dms_browse.png", "alt": "", "link": ""}
             ],
             "description": ""
         },
@@ -73,8 +85,8 @@
             "type": ["Web Design", "Development"],
             "date": "November 22nd, 2007",
             "images": [
-                {"source": "/images/work_ss_vbp_home.png", "alt": ""},
-                {"source": "/images/work_ss_vbp_widget.png", "alt": ""}
+                {"source": "/images/work_ss_vbp_home.png", "alt": "", "link": ""},
+                {"source": "/images/work_ss_vbp_widget.png", "alt": "", "link": ""}
             ],
             "description": ""
         }

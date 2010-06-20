@@ -47,16 +47,16 @@ header nav form button.clicked span { background-position: 0 -210px; color: whit
 /* line 46, content/css/_layout.sass */
 footer { width: 100%; float: left; padding-top: 3em; margin-top: 3em; padding-bottom: 1.5em; background-color: #a0a0a0; background-color: rgba(0, 0, 0, 0.1); border-top: 1px solid rgba(255, 255, 255, 0.6); }
 /* line 56, content/css/_layout.sass */
-footer .byline, footer .menu { float: left; width: 235px; padding-right: 50px; margin-right: 15px; }
+footer .byline, footer .menu { float: left; width: 200px; margin-right: 25px; }
 /* line 62, content/css/_layout.sass */
 footer .byline h4, footer .menu h4 { margin-bottom: 0; }
-/* line 65, content/css/_layout.sass */
+/* line 64, content/css/_layout.sass */
 footer .byline p, footer .menu p { font-size: 0.8em; line-height: 1.875em; }
-/* line 69, content/css/_layout.sass */
+/* line 67, content/css/_layout.sass */
 footer .byline .nav, footer .menu .nav { padding-left: 0; list-style-type: none; }
-/* line 72, content/css/_layout.sass */
+/* line 70, content/css/_layout.sass */
 footer .byline .nav li, footer .menu .nav li { font-size: 0.8em; line-height: 1.875em; }
-/* line 75, content/css/_layout.sass */
+/* line 73, content/css/_layout.sass */
 footer #menu-3 { margin-right: 0; }
-/* line 77, content/css/_layout.sass */
+/* line 75, content/css/_layout.sass */
 footer .menu .nav a { color: #3a403b; text-decoration: none; }

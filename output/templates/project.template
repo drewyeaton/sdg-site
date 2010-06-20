@@ -11,7 +11,11 @@
         </div>
         <div class="screenshots">
             <% for(var i in project.images) { %>
-                <p><img src="<%= project.images[i].source %>" alt="<%= project.images[i].alt %>"></p>
+                <% if(project.images[i].link) { %>
+                    <p><a href="<%= project.images[i].link %>" target="_blank"><img src="<%= project.images[i].source %>" alt="<%= project.images[i].alt %>"></a></p>
+                <% } else { %>
+                    <p><img src="<%= project.images[i].source %>" alt="<%= project.images[i].alt %>"></p>
+                <% } %>
             <% } %>
         </div>
         <div class="description"><%= project.description %></div>
