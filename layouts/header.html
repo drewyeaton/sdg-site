@@ -7,8 +7,20 @@
 	<link rel="stylesheet" href="/css/base.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 		
 	<script src="/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/sammy.js" type="text/javascript" charset="utf-8"></script>
+	<script src="/js/plugins/sammy.template.js" type="text/javascript" charset="utf-8"></script>
 	<script src="/js/<%= @item[:js] %>.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript" src="http://use.typekit.com/wxs5rov.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body class="<%= @item[:breadcrumb] %>">
+<header>
+    <div class="container">
+        <a href="#/"><img class="logo" src="/images/logo.png" alt="Sentinel Design"></a>
+        <!-- <a href="#/">Home</a> -->
+        
+        <nav>
+            <form action="#/" method="post"><button class="projects"><span>Projects</span></button></form>
+            <form action="#/about" method="post"><button class="about"><span>About</span></button></form>
+            <!-- <form action="#/contact" method="post"><button class="contact"><span>Contact</span></button></form> -->
+        </nav>
+    </div>
+</header>

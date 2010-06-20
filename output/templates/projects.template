@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="projects">
+        <% for(var i in projects) { %>
+        <div id="project-<%= i %>" class="project">
+            <a  href="#/project/<%= projects[i].slug %>">
+            <div class="card">
+                <div class="front face">
+                    <img src="<%= projects[i].bigthumb %>" alt="" width="285" height="144" />
+                </div>
+                <div class="back face">
+                    <h4><%= projects[i].title %></h4>
+                    <p class="meta">
+                        <% for(var j in projects[i].type) { %>
+                            <span class="type"><%= projects[i].type[j] %></span>
+                        <% } %>
+                    </p>
+                    <p class="date"><%= projects[i].date %></p>
+                </div>
+            </div>
+            </a>
+        </div>
+        <% } %>
+    </div>
+</div>

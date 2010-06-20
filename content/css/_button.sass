@@ -1,0 +1,72 @@
+=button($sprite-image, $height: 36px, $top-space: 9px, $right-space: 14px, $left-space: 14px, $font-size: 1.2em, $font-color: #444444, $font-shadow: #dddddd, $font-shadow-offset: 1px)
+  
+  // @todo split this section back out into separate mixin
+  position: relative
+  border: 0
+  padding: 0
+  cursor: pointer
+  overflow: visible
+  
+  &::-moz-focus-inner
+    border: none
+  
+  span
+    position: relative
+    display: block
+    white-space: nowrap
+  
+  // reset outline focus for styled buttons
+  &:focus
+    outline: 0
+  
+  $hover-class: hover
+  $active-class: active
+  $clicked-class: clicked
+  
+  padding: 0 $right-space 0 0
+  font-size: $font-size
+  text-align: center
+  background: transparent image-url($sprite-image) no-repeat right -280px
+  
+  span
+    padding: $top-space 0 0 $left-space
+    height: $height - $top-space
+    background: transparent image-url($sprite-image) no-repeat left top
+    color: $font-color
+    text-shadow: $font-shadow 0px $font-shadow-offset 0px
+    // font-weight: bold
+  
+  &:hover
+    background-position: right -350px
+  
+  &.#{$hover-class}
+    background-position: right -350px
+  
+  &:hover span, &.#{$hover-class} span
+    background-position: 0 -70px
+  
+  &:active
+    background-position: right -420px
+
+  &.#{$active-class}
+    background-position: right -420px
+
+  &:active span, &.#{$active-class} span
+    background-position: 0 -140px
+
+  &.#{$clicked-class}
+    background-position: right -490px
+    cursor: default
+
+  &.#{$clicked-class} span
+    background-position: 0 -210px
+    color: #fff
+    text-shadow: #222 0px $font-shadow-offset 0px
+
+=button-scaled($sprite-image, $height, $font-color: #444444, $font-shadow: #dddddd, $font-shadow-offset: 1px)
+  $top-space: $height / 3 - 3px
+  $right-space: $height / 3
+  $left-space: $height / 3
+  // !font_size = ((!height / 45px - .4px) / 1px) * 1em + .8em
+  $font-size: ($height / 45px - 0.4px) / 1px * 1em + 0.8em
+  +button($sprite-image, $height, $top-space, $right-space, $left-space, $font-size, $font-color, $font-shadow, $font-shadow-offset)

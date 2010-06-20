@@ -1,0 +1,26 @@
+/* line 2, content/css/_projects.sass */
+.projects-page #sub-nav { display: none; }
+/* line 6, content/css/_projects.sass */
+.projects-page #stage .projects { width: 900px; float: left; margin-top: 1.5em; }
+/* line 11, content/css/_projects.sass */
+.projects-page #stage .projects .project { float: left; position: relative; margin-right: 15px; margin-bottom: 1.5em; }
+/* line 17, content/css/_projects.sass */
+.projects-page #stage .projects .project a { display: block; width: 285px; height: 143px; border-bottom: none; }
+/* line 23, content/css/_projects.sass */
+.projects-page #stage .projects .project .card { width: 285px; height: 143px; -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; overflow: hidden; background: #333333 url(/images/bg_details.png) repeat; }
+/* line 40, content/css/_projects.sass */
+.projects-page #stage .projects .project .card .front { height: 144px; float: left; margin-top: 0; -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
+/* line 52, content/css/_projects.sass */
+.projects-page #stage .projects .project .card:hover .front { margin-top: -7.5em; }
+/* line 56, content/css/_projects.sass */
+.projects-page #stage .projects .project .card .back { float: left; padding-left: 15px; padding-top: 10px; opacity: 0; -webkit-transition: all 0.4s ease-in-out; -moz-transition: all 0.4s ease-in-out; -o-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; }
+/* line 66, content/css/_projects.sass */
+.projects-page #stage .projects .project .card .back h4 { color: #cccccc; margin-bottom: 0.85em; font-size: 1.3em; line-height: 1.15; font-weight: 300; text-shadow: black 0 -1px 0; }
+/* line 74, content/css/_projects.sass */
+.projects-page #stage .projects .project .card .back .meta, .projects-page #stage .projects .project .card .back .date { color: #cccccc; font-size: 0.8em; line-height: 0.875; }
+/* line 79, content/css/_projects.sass */
+.projects-page #stage .projects .project .card .back .type { color: #eeeeee; background-color: #292929; margin-right: 0; -webkit-border-radius: 2em; -moz-border-radius: 2em; border-radius: 2em; border-top: 1px solid #393939; border-bottom: 1px solid #222222; padding: 0.5em 1em; font-weight: bold; position: relative; left: -8px; }
+/* line 93, content/css/_projects.sass */
+.projects-page #stage .projects .project .card:hover .back { opacity: 1; }
+/* line 97, content/css/_projects.sass */
+.projects-page #stage .projects .project canvas { position: absolute; top: -15px; left: -15px; }

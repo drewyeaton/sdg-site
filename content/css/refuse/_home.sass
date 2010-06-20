@@ -1,0 +1,99 @@
+.home-page
+  // background-color: #ccc
+  background:  #ccc url(/images/bg_pinstripe.png) repeat
+
+  .projects
+    width: 900px
+    float: left
+    margin-top: 1.5em
+    
+    .project
+      float: left
+      position: relative
+      margin-right: 15px
+      margin-bottom: 1.5em
+      
+      a
+        display: block
+        width: 285px
+        height: 143px
+        border-bottom: none
+
+      .card
+        // display: block
+        width: 285px
+        height: 143px
+        -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .3)
+        -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, .3)
+        box-shadow: 0 2px 4px rgba(0, 0, 0, .3)
+        -moz-border-radius: 6px
+        -webkit-border-radius: 6px
+        border-radius: 6px
+        overflow: hidden
+        // position: relative
+        // border-top: 1px solid rgba(255, 255, 255, .3)
+        // background-color: #333
+        background:  #333 url(/images/bg_details.png) repeat
+        // cursor: pointer
+        
+        .front
+          height: 144px
+          float: left
+          margin-top: 0
+          -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, .3)
+          -moz-box-shadow: 0 8px 16px rgba(0, 0, 0, .3)
+          box-shadow: 0 8px 16px rgba(0, 0, 0, .3)
+          -webkit-transition: all .2s
+          -moz-transition: all .2s
+          -o-transition: all .2s
+          transition: all .2s
+        
+        &:hover .front
+          margin-top: -7.5em
+          // display: none
+        
+        .back
+          float: left
+          padding-left: 15px
+          padding-top: 10px
+          opacity: 0
+          -webkit-transition: all .4s ease-in-out
+          -moz-transition: all .4s ease-in-out
+          -o-transition: all .4s ease-in-out
+          transition: all .4s ease-in-out
+          
+          h4
+            color: #ccc
+            margin-bottom: .85em
+            font-size: 1.3em
+            line-height: 1.15
+            font-weight: 300
+            text-shadow: #000 0 -1px 0
+          
+          .meta, .date
+            color: #ccc
+            font-size: .8em
+            line-height: .875
+          
+          .type
+            color: #eee
+            background-color: #292929
+            margin-right: 0
+            -webkit-border-radius: 2em
+            -moz-border-radius: 2em
+            border-radius: 2em
+            border-top: 1px solid #393939
+            border-bottom: 1px solid #222
+            padding: .5em 1em
+            font-weight: bold
+            position: relative
+            left: -8px
+            
+        &:hover .back
+          opacity: 1.0
+          // display: none
+        
+      canvas
+        position: absolute
+        top: -15px
+        left: -15px

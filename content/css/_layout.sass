@@ -1,78 +1,63 @@
+@import "button"
+
 body
   color: #3d423d
   font-family: "Lucida Grande", Lucida, Verdana, sans-serif
-  background: #fbffc4 no-repeat center top
+  background:  #ccc url(/images/bg_pinstripe.png) repeat
 
 .container
   width: 900px
   margin: 0 auto
 
-// header
-
-#header
+header
   float: left
-  /*background: rgb(38, 126, 157);
-  /*background: rgba(0, 103, 151, 0.85);
-  background-color: rgb(215, 0, 0)
-  background-color: rgba(215, 0, 0, 0.8)
-  padding-top: 1.5em
-  padding-bottom: 1.5em
+  // background-color: #ccc
+  background:  #ccc url(/images/bg_header.png) repeat-x bottom
+  border-bottom: 1px solid #ececec
   width: 100%
-  /*border: 1.5em solid rgb(125,193,184);
-  /*border: 1.5em solid rgba(197,250,208,0.55);
-  /*border-right-style: none;
-  /*border-left-style: none;
-  .title
-    width: 585px
-    margin-right: 15px
-    float: left
-    padding-top: 10px
-  .menu
-    float: left
-  .nav
-    list-style-type: none
-    padding-left: 0
-    margin-bottom: 0
-    float: left
-    margin-right: 0
-    li
-      padding-bottom: .325em
-      width: 285px
-      span
-        color: rgb(70, 70, 70)
-        color: rgba(0, 0, 0, 0.6)
-        font-size: .8em
-        line-height: 1.875
-        margin-left: 1.5em
-    a
-      text-decoration: none
-      color: #fff
-      font-weight: bold
-      border-bottom: 2px solid #f6d7ae
-      &:focus, &:hover
-        color: #efae63
-        border-bottom: 2px solid #efae63
+  height: 100px
+  
+  .container
+    position: relative
+  
+  .logo
+    position: absolute
+    top: 32px
+  
+  nav
+    position: absolute
+    top: 32px
+    right: 0
+    
+    form
+      float: left    
+      button
+        +button-scaled("/images/rounded_button_30.png", 30px)
 
 // footer
 
-#footer
+footer
   width: 100%
   float: left
   padding-top: 3em
-  background-color: rgb(157, 137, 111)
-  background-color: rgba(157, 137, 111, 0.45)
-  .byline
+  margin-top: 3em
+  background-color: rgb(160, 160, 160)
+  background-color: rgba(0, 0, 0, 0.1)
+  border-top: 1px solid rgba(255, 255, 255, .6)
+  
+  .byline, .menu
     float: left
     width: 235px
     padding-right: 50px
     margin-right: 15px
-    font-size: .8em
-    line-height: 1.875em
-  .menu
-    float: left
-    width: 185px
-    margin-right: 15px
-    margin-bottom: 1.5em
+    
+    h4
+      margin-bottom: 0
+    
+    p
+      font-size: .8em
+      line-height: 1.875em
+    
     .nav
       padding-left: 0
       list-style-type: none

@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="project">
+        <div class="overview">
+            <h1><%= project.title %></h1>
+            <p class="meta">
+                <% for(var i in project.type) { %>
+                    <span class="type"><%= project.type[i] %></span>
+                <% } %>
+            </p>
+            <p class="date"><%= project.date %></p>
+        </div>
+        <div class="screenshots">
+            <% for(var i in project.images) { %>
+                <p><img src="<%= project.images[i].source %>" alt="<%= project.images[i].alt %>"></p>
+            <% } %>
+        </div>
+        <div class="description"><%= project.description %></div>
+    </div>
+</div>

@@ -1,0 +1,108 @@
+{
+    "projects": [
+        {
+            "slug": "seevolution",
+            "title": "Seevolution",
+            "bigthumb": "/images/work_bigthumb_seevolution.png",
+            "thumb": "/images/work_thumb_seevolution.png",
+            "type": ["Logo", "Branding", "Web Design"],
+            "date": "May 10th, 2010",
+            "images": [
+                {"source": "/images/work_ss_seevolution_logo.png", "alt": ""},
+                {"source": "/images/work_ss_seevolution_home.png", "alt": ""}
+            ],
+            "description": "<p>Seevolution is complex, multi-dimensional visitor analytics and x-ray made simple. Seevolution called on Sentinel Design to help create simple data visualization, interface design and sign-up process. The core of Seevolutions offering is an on-site toolbar that provides traffic data on the actual page that creates it. Sentinel Design these interface elements and helped shaped future features.</p><p>Seevolution is <a href='http://www.seevolution.com/' target='blank'>launching soon</a>.</p>"
+        },
+        {
+            "slug": "simplypowered",
+            "title": "SimplyPowered",
+            "bigthumb": "/images/work_bigthumb_simplypowered.png",
+            "thumb": "/images/work_thumb_simplypowered.png",
+            "type": ["Logo", "Branding"],
+            "date": "April 17th, 2010",
+            "images": [
+                {"source": "/images/work_ss_simplypowered_logo.png", "alt": ""},
+                {"source": "/images/work_ss_simplypowered_home_on_tile.png", "alt": ""},
+                {"source": "/images/work_ss_simplypowered_home.png", "alt": ""}
+            ],
+            "description": ""
+        },
+        {
+            "slug": "recurly-client",
+            "title": "Recurly Python Client",
+            "bigthumb": "/images/work_bigthumb_recurly_client.png",
+            "thumb": "/images/work_thumb_recurly_client.png",
+            "type": ["Development"],
+            "date": "February 22rd, 2010",
+            "images": [
+                {"source": "/images/work_ss_recurly_client.png", "alt": ""}
+            ],
+            "description": "<p>Recurly recently asked Sentinel Design Group to development a feature-complete Python API client to allow Python developers quick and painless integration with its service. The code can be seen on Recurly's GitHub page at <a href='http://github.com/recurly/recurly-client-python'>http://github.com/recurly/recurly-client-python</a></p>"
+        },
+        {
+            "slug": "flipswap-nokia",
+            "title": "Nokia Trade-up Program",
+            "bigthumb": "/images/work_bigthumb_nokia.png",
+            "thumb": "/images/work_thumb_nokia.png",
+            "type": ["Web Design", "Development"],
+            "date": "November 23rd, 2009",
+            "images": [
+                {"source": "/images/work_ss_nokia_home.png", "alt": ""},
+                {"source": "/images/work_ss_nokia_trade.png", "alt": ""},
+                {"source": "/images/work_ss_nokia_account.png", "alt": ""}
+            ],
+            "description": ""
+        },
+        {
+            "slug": "audubon-nature-institute",
+            "title": "Audubon Nature Institute",
+            "bigthumb": "/images/work_bigthumb_ani.png",
+            "thumb": "/images/work_thumb_ani.png",
+            "type": ["Web Design"],
+            "date": "August 10th, 2009",
+            "images": [
+                {"source": "/images/work_ss_ani_home.png", "alt": ""},
+                {"source": "/images/work_ss_ani_aquarium.png", "alt": ""}
+            ],
+            "description": ""
+        },
+        {
+            "slug": "flipswap-reasons",
+            "title": "Flipswap Commercial",
+            "bigthumb": "/images/work_bigthumb_flipswap_reasons.png",
+            "thumb": "/images/work_thumb_flipswap_reasons.png",
+            "type": ["Motion Graphics", "Music"],
+            "date": "March 9th, 2009",
+            "images": [
+                {"source": "", "alt": ""}
+            ],
+            "description": "<p>The goal of the  &ldquo;Reasons&rdquo; project was to communicate the fun and quirky approach Flipswap takes to helping the environment. Creating and combining various assets within Final Cut Pro, Motion, Cinema 4D and Logic, we created an ensemble that embodied the fresh and funky nature of Flipswap. The result of this work was displayed on the website and displayed at various industry events.</p>"
+        },
+        {
+            "slug": "do-my-stuff",
+            "title": "DoMyStuff.com",
+            "bigthumb": "/images/work_bigthumb_dms.png",
+            "thumb": "/images/work_thumb_dms.png",
+            "type": ["Web Design"],
+            "date": "February 8th, 2009",
+            "images": [
+                {"source": "/images/work_ss_dms_home.png", "alt": ""},
+                {"source": "/images/work_ss_dms_browse.png", "alt": ""}
+            ],
+            "description": ""
+        },
+        {
+            "slug": "very-bad-poetry",
+            "title": "Very Bad Poetry",
+            "bigthumb": "/images/work_bigthumb_vbp.png",
+            "thumb": "/images/work_thumb_vbp.png",
+            "type": ["Web Design", "Development"],
+            "date": "November 22nd, 2007",
+            "images": [
+                {"source": "/images/work_ss_vbp_home.png", "alt": ""},
+                {"source": "/images/work_ss_vbp_widget.png", "alt": ""}
+            ],
+            "description": ""
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'compass'
-Compass.add_project_configuration 'config/compass.config'
+Compass.add_project_configuration 'config/compass.rb'
 
 # compilation rules
 
@@ -15,16 +15,16 @@ end
 
 compile '/' do
   filter :erb
-  layout 'home'
+  layout 'app'
 end
 
-compile '/resume/' do
-  layout 'blank'
-end
-
-compile '/fieldnotes/' do
-  layout 'blank'
-end
+# compile '/resume/' do
+#   layout 'blank'
+# end
+# 
+# compile '/fieldnotes/' do
+#   layout 'blank'
+# end
 
 compile '*' do
   filter :erb
